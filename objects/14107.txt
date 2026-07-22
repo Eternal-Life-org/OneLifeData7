@@ -1,5 +1,5 @@
 id=14107
-粘糊糊的汤锅Pot of Gooey Mess
+一锅粘糊糊的烂摊子Pot of Gooey Mess
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

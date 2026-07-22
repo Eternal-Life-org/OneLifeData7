@@ -1,5 +1,5 @@
 id=25166
-工作台上的深色国王Dark King on Wood Work Bench
+木工凳上的黑暗之王Dark King on Wood Work Bench
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=13490
-被木钳夹着的未熔炼锡坩埚Unforged Tin Crucible in Wooden Tongs
+被木钳夹着的未锻造锡坩埚Unforged Tin Crucible in Wooden Tongs
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

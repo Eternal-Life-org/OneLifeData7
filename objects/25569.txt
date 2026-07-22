@@ -1,5 +1,5 @@
 id=25569
-干燥的红金鱼草幼苗Dry Snapdragon Seedling
+干燥的金鱼草幼苗Dry Snapdragon Seedling
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

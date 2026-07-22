@@ -1,5 +1,5 @@
 id=30632
-上釉水的骨瓷长板UnGlazed Firing China LongPlate
+无玻璃烧制中国长板UnGlazed Firing China LongPlate
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=25171
-深色皇后Dark Queen # ground
+黑暗女王Dark Queen# ground
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

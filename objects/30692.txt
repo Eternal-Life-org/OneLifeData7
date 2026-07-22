@@ -1,5 +1,5 @@
 id=30692
-竹网中的鳕鱼Bamboo Net with Cod
+鳕鱼竹网Bamboo Net with Cod
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

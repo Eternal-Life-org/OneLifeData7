@@ -1,5 +1,5 @@
 id=7622
-一箱未满仙人掌果Crate of Cactus Fruit
+一箱仙人掌果Crate of Cactus Fruit
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

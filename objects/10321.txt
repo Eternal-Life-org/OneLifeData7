@@ -1,5 +1,5 @@
 id=10321
-生根的蓝菊花剪枝Rooting Blue Chrysanthemum Cutting
+生根蓝菊花切割Rooting Blue Chrysanthemum Cutting
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=10360
-蒲公英剪枝Dandelion Cutting
+蒲公英切割Dandelion Cutting
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

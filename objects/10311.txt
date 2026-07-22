@@ -1,5 +1,5 @@
 id=10311
-带龟背竹剪枝的剪刀Shears with Monstera Cutting
+龟背竹剪剪Shears with Monstera Cutting
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

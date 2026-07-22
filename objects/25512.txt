@@ -1,5 +1,5 @@
 id=25512
-湿秃柏树苗Wet Bald Cypress Sapling
+湿秃柏树液Wet Bald Cypress Sapling
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

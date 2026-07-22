@@ -1,5 +1,5 @@
 id=25590
-湿润的红银莲花幼苗Watered Red Windflower Seedling
+浇水红风花幼苗Watered Red Windflower Seedling
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

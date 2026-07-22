@@ -1,5 +1,5 @@
 id=25177
-深色马Dark Knight # ground
+黑暗骑士Dark Knight# ground
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

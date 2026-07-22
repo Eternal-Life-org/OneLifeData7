@@ -1,5 +1,5 @@
 id=4802
-遗忘之剑Sword of Oblivion #scabbard
+遗忘之剑Sword of Oblivion#scabbard
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=18

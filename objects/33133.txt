@@ -1,5 +1,5 @@
 id=33133
-两个失败的研钵和研杵Bone China Crucibe and Lid Lose
+骨瓷坩埚和盖子 丢失Bone China Crucibe and Lid Lose
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

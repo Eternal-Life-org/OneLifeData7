@@ -1,5 +1,5 @@
 id=11037
-两箱未满葡萄Crates of Grapes #2 #Empty
+一箱箱葡萄Crates of Grapes#2 #Empty
 containable=1
 containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

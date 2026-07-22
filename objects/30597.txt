@@ -1,5 +1,5 @@
 id=30597
-陶瓷粘土与牛骨粉China woth Bones
+中国编织骨头China woth Bones
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

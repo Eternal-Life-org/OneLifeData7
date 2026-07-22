@@ -1,5 +1,5 @@
 id=10227
-温煮木屑Simmering Wood Shavings
+煨木屑Simmering Wood Shavings
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

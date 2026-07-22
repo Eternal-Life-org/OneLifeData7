@@ -1,5 +1,5 @@
 id=13261
-开花的橙树，带有小切石Flowering Orange Tree with Small Cut Stones #justMade
+开花的橙树，带有小切石Flowering Orange Tree with Small Cut Stones#justMade
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

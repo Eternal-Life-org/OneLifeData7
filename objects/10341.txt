@@ -1,5 +1,5 @@
 id=10341
-湿红银莲花芽Wet Red Windflower Sprout
+湿红白头翁花芽Wet Red Windflower Sprout
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

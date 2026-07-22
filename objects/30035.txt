@@ -1,5 +1,5 @@
 id=30035
-足球FootBall# 5 kick Miss
+足球足球FootBall# 5 kick Miss
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

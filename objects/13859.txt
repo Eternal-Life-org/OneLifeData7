@@ -1,5 +1,5 @@
 id=13859
-3级沙漠铁矿矿井Desert Iron Mine #3
+沙漠铁矿Desert Iron Mine#3
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=10337
-生根的红银莲花剪枝Rooting Red Windflower Cutting
+生根红风花切割Rooting Red Windflower Cutting
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

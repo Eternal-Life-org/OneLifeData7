@@ -1,5 +1,5 @@
 id=13827
-3级石灰石矿井和石灰石Limestone Mine with Limestone #3
+石灰石矿Limestone Mine with Limestone#3
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

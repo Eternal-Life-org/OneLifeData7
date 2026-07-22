@@ -1,5 +1,5 @@
 id=34274
-干燥的绿萝幼苗Bone Flower Pot with Dry Epipremnum Aureum Cutting
+骨花壶，带金表菌干切Bone Flower Pot with Dry Epipremnum Aureum Cutting
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=14

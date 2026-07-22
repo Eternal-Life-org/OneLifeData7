@@ -1,5 +1,5 @@
 id=25565
-湿润的蓝菊花幼苗Watered Chrysanthemum Seedling
+菊花水苗Watered Chrysanthemum Seedling
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

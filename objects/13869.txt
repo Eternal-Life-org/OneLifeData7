@@ -1,5 +1,5 @@
 id=13869
-3级沙漠铝土矿矿井和青金石Desert Mineral Mine with Lapis Lazuli #3
+沙漠矿井与青金石Desert Mineral Mine with Lapis Lazuli#3
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

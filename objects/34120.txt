@@ -1,5 +1,5 @@
 id=34120
-干香橼树剪枝Dry Citron Sapling Cutting
+柠檬树液干切Dry Citron Sapling Cutting
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

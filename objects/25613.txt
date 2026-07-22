@@ -1,5 +1,5 @@
 id=25613
-一桶苹果和水Cut Apple in Barrel with Water
+用水把苹果切成桶Cut Apple in Barrel with Water
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

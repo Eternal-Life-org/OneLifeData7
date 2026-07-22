@@ -1,5 +1,5 @@
 id=14490
-用过的过滤布Used Straining Cloth #held
+用过的过滤布Used Straining Cloth#held
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=10620
-（已过时）Flat Rock 上的冷烤箱门Cool Oven Door on Flat Rock
+Flat Rock 上的冷烤箱门Cool Oven Door on Flat Rock
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

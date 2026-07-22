@@ -1,5 +1,5 @@
 id=12685
-三箱甜菜Full Crates of Beets #3
+满箱甜菜Full Crates of Beets#3
 containable=1
 containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

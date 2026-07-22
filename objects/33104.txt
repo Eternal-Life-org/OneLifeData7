@@ -1,5 +1,5 @@
 id=33104
-熔炉中上釉的骨瓷花盆Closed Firing Stone with Glazed Firing Bone China Pot
+封闭式烧石配釉烧骨瓷锅Closed Firing Stone with Glazed Firing Bone China Pot
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

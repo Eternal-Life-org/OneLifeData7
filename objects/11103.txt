@@ -1,5 +1,5 @@
 id=11103
-对接日志Butt Log #dark onGround
+对接日志Butt Log#dark onGround
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

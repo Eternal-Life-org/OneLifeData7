@@ -1,5 +1,5 @@
 id=12726
-狩猎黑猫Hunting Black Cat #readyToPounce
+狩猎黑猫Hunting Black Cat#readyToPounce
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

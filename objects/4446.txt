@@ -1,5 +1,5 @@
 id=4446
-（已过时）缰绳和树枝Cargo Crate
+货箱Cargo Crate
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

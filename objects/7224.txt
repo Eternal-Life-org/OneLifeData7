@@ -1,5 +1,5 @@
 id=7224
-铜管Copper Pipe #C
+铜管Copper Pipe#C
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

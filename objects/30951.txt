@@ -1,5 +1,5 @@
 id=30951
-一盘白香肠Plate of  White Sausages
+一盘白香肠Plate of _x000D_   White Sausages
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

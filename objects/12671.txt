@@ -1,5 +1,5 @@
 id=12671
-一箱黄瓜Full Crate of Cucumbers
+满满一箱黄瓜Full Crate of Cucumbers
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

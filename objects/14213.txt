@@ -1,5 +1,5 @@
 id=14213
-被木钳夹着的花盆Wet Clay Flower Pot in Wooden Tongs
+木钳中的湿粘土花盆Wet Clay Flower Pot in Wooden Tongs
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

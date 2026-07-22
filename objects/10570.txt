@@ -1,5 +1,5 @@
 id=10570
-热铁锅和牛肉Hot Cast Iron Pan with Beef
+热铸铁锅牛肉Hot Cast Iron Pan with Beef
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=2290
-被木钳夹着的钢活塞毛坯Steel Piston Blank in Wooden Tongs
+木制大钳中的钢活塞毛坯Steel Piston Blank in Wooden Tongs
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

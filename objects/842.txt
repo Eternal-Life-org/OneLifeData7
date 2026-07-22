@@ -1,5 +1,5 @@
 id=842
-钟塔Bell Tower# ready to ring
+钟塔10Bell Tower# ready to ring
 containable=0
 containSize=1,vertSlotRot=-0.250000
 permanent=1,minPickupAge=3

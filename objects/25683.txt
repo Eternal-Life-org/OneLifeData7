@@ -1,5 +1,5 @@
 id=25683
-模具中的生蛋黄月饼Mooncake Mold on Plate of Raw Yolk Mooncake # Unplasticity
+生蛋黄月饼盘上的月饼模具Mooncake Mold on Plate of Raw Yolk Mooncake# Unplasticity
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

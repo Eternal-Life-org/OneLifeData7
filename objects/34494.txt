@@ -1,5 +1,5 @@
 id=34494
-铁砧上的钢桶Sheet Bucket on Anvil
+铁砧上的纸桶Sheet Bucket on Anvil
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

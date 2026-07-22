@@ -1,5 +1,5 @@
 id=34137
-生根的香橼树剪枝Rooting Citron Tree Cutting
+柑橘树扦插生根Rooting Citron Tree Cutting
 containable=1
 containSize=1.000000,vertSlotRot=-0.500000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=13916
-运行中的4级苔原铁矿矿井Running Tundra Iron Mine #4
+运行苔原铁矿Running Tundra Iron Mine#4
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

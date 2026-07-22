@@ -1,5 +1,5 @@
 id=34260
-绿萝盆栽Potted Epipremnum Aureum
+盆栽金黄色淫羊藿Potted Epipremnum Aureum
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

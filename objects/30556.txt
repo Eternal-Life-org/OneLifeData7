@@ -1,5 +1,5 @@
 id=30556
-湿骨瓷长板 Wet Bone China LongPlant
+湿骨中国龙工厂Wet Bone China LongPlant
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

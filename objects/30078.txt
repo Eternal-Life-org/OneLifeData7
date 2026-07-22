@@ -1,5 +1,5 @@
 id=30078
-化学反应Chemical Reaction# High HCL+CUO
+化学反应化学反应Chemical Reaction# High HCL+CUO
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

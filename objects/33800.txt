@@ -1,5 +1,5 @@
 id=33800
-一堆水玻璃Stack of Sodium Silicate
+硅酸钠堆Stack of Sodium Silicate
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

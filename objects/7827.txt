@@ -1,5 +1,5 @@
 id=7827
-一堆大西洋鲈鱼Pile of Bass
+一堆鲈鱼Pile of Bass
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

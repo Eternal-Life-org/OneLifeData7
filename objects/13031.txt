@@ -1,5 +1,5 @@
 id=13031
-斗牛犬挖 出的随机物品Random Items Dug Up by Pit Bull
+斗牛犬挖出的随机物品Random Items Dug Up by Pit Bull
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

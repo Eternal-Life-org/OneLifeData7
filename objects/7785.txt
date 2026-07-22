@@ -1,5 +1,5 @@
 id=7785
-油漆刷Paint Brush with Paint #blue
+油漆刷Paint Brush with Paint#blue
 containable=1
 containSize=1.000000,vertSlotRot=-0.360000
 permanent=0,minPickupAge=3

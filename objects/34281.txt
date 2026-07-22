@@ -1,5 +1,5 @@
 id=34281
-鸭掌木盆栽Bone Flower Pot with Schefflera
+沙夫雷拉骨花盆Bone Flower Pot with Schefflera
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=14

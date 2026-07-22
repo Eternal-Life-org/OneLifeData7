@@ -1,5 +1,5 @@
 id=34211
-灌木丛和牛蒡根Thicket with Burdock Root
+牛蒡根加厚Thicket with Burdock Root
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

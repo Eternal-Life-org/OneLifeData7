@@ -1,5 +1,5 @@
 id=7234
-移动的水Traveling Water #S
+移动的水Traveling Water#S
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

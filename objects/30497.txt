@@ -1,5 +1,5 @@
 id=30497
-一箱草莓Full Crate of Strawberry
+满满一箱草莓Full Crate of Strawberry
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

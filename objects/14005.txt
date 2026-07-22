@@ -1,5 +1,5 @@
 id=14005
-热铁锅和鳟鱼Hot Cast Iron Pan with Trout Fillet
+热铸铁锅配鳟鱼片Hot Cast Iron Pan with Trout Fillet
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

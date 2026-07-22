@@ -1,5 +1,5 @@
 id=14018
-带铁锅的模具Mold with Cast Iron Pan
+带铸铁锅的模具Mold with Cast Iron Pan
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=8362
-被木钳夹着的砖Brick in Wooden Tongs
+木钳中的砖Brick in Wooden Tongs
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

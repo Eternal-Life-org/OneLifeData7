@@ -1,5 +1,5 @@
 id=25669
-玫瑰月饼Plate of Flowers Mooncake
+花盘月饼Plate of Flowers Mooncake
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

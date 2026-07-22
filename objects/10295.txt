@@ -1,5 +1,5 @@
 id=10295
-带英格兰常春藤剪枝的剪刀Shears with England Ivy Cutting
+英格兰常春藤剪裁剪刀Shears with England Ivy Cutting
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

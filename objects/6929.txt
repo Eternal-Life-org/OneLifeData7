@@ -1,5 +1,5 @@
 id=6929
-剥皮家养牛Skinned Cow #with hide
+剥皮家养牛Skinned Cow#with hide
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3

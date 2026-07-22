@@ -1,5 +1,5 @@
 id=30854
-带土的骨瓷花盆Bone China Pot with Soil
+骨瓷土锅Bone China Pot with Soil
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=14

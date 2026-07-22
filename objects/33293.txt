@@ -1,5 +1,5 @@
 id=33293
-钢楔刀和细木板Boards with Froe
+带花纹的棋盘Boards with Froe
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

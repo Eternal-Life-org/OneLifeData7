@@ -1,5 +1,5 @@
 id=28200
-浇水牵牛花苗Watered Morning Glory Seedling
+浇水牵牛花苗 Watered Morning Glory Seedling
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

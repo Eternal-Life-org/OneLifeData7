@@ -1,5 +1,5 @@
 id=28000
-盛开的紫藤花树Blooming Wisteria Tree # Shake
+盛开的紫藤花树 Blooming Wisteria Tree# Shake
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

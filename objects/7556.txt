@@ -1,5 +1,5 @@
 id=7556
-三箱椰子Full Crates of Coconuts #3
+满满一箱椰子Full Crates of Coconuts#3
 containable=1
 containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

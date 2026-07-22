@@ -1,5 +1,5 @@
 id=14577
-狩猎虎斑猫Hunting Tabby Cat #held
+狩猎虎斑猫Hunting Tabby Cat#held
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

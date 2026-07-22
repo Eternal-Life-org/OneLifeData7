@@ -1,5 +1,5 @@
 id=6375
-披上毛皮大衣的种马Fur Coat Stallion #strap
+披上毛皮大衣的种马Fur Coat Stallion#strap
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=13

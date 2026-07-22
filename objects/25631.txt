@@ -1,5 +1,5 @@
 id=25631
-填过土的松软地Filled Hole with Soil # 1
+用土壤填充孔洞Filled Hole with Soil# 1
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

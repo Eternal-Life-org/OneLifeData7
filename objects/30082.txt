@@ -1,5 +1,5 @@
 id=30082
-化学反应Chemical Reaction# NAOH+CL
+化学反应化学反应Chemical Reaction# NAOH+CL
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

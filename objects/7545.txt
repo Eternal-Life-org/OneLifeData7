@@ -1,5 +1,5 @@
 id=7545
-一箱香蕉Full Crate of Bananas
+满满一箱香蕉Full Crate of Bananas
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

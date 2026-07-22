@@ -1,5 +1,5 @@
 id=14142
-一锅煮过的甘蔗果肉Pot of Cooked Sugarcane Pulp
+一锅煮熟的甘蔗浆Pot of Cooked Sugarcane Pulp
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

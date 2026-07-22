@@ -1,5 +1,5 @@
 id=10322
-干蓝菊花扦插Dry Planted Blue Chrysanthemum
+干植蓝菊花Dry Planted Blue Chrysanthemum
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

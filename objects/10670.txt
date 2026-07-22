@@ -1,5 +1,5 @@
 id=10670
-缅因猫Maine Coon Cat #held
+缅因猫Maine Coon Cat#held
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

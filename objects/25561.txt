@@ -1,5 +1,5 @@
 id=25561
-干燥萌芽的黄色雏菊Dry Budding Yellow Daisy
+干枯的黄色雏菊Dry Budding Yellow Daisy
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

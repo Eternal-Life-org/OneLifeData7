@@ -1,5 +1,5 @@
 id=34359
-浇灌鸭掌木幼苗Wet Wooden Flower Pot Schefflera Cutting
+湿木花盆沙夫雷拉切割Wet Wooden Flower Pot Schefflera Cutting
 containable=1
 containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

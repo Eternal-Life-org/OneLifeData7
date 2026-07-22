@@ -1,5 +1,5 @@
 id=30570
-三箱未满桃子Crates of Peach# 3
+成箱的桃子Crates of Peach# 3
 containable=1
 containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

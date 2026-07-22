@@ -1,5 +1,5 @@
 id=12744
-石油钻机Oil Rig #derrick #pumping
+石油钻机Oil Rig#derrick #pumping
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

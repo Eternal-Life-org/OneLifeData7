@@ -1,5 +1,5 @@
 id=8293
-野牛Bison #arrow missed
+野牛Bison#arrow missed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

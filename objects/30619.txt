@@ -1,5 +1,5 @@
 id=30619
-熔炉中的骨瓷花盆Stone Furnace with Bone China Pot
+石炉配骨瓷锅Stone Furnace with Bone China Pot
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

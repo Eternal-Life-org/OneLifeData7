@@ -1,5 +1,5 @@
 id=34262
-干燥的鸭掌木幼苗Clay Flower Pot with Dry Schefflera Cutting
+干切丝泥花盆Clay Flower Pot with Dry Schefflera Cutting
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=14

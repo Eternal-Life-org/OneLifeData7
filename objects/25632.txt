@@ -1,5 +1,5 @@
 id=25632
-填过土的松软地与草种子Filled Hole with Soil and Glass Seed # 1
+用土壤和玻璃种子填充孔洞Filled Hole with Soil and Glass Seed# 1
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

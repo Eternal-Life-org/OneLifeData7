@@ -1,5 +1,5 @@
 id=7517
-三箱玉米Full Crates of Corn #3
+满满一箱玉米Full Crates of Corn#3
 containable=1
 containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

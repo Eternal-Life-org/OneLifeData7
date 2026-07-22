@@ -1,5 +1,5 @@
 id=25664
-一碗冰皮粉Bowl of Polished Flour with Sugar and Oil and Lye
+一碗加糖、油和碱液的抛光面粉Bowl of Polished Flour with Sugar and Oil and Lye
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=30564
-一箱未满桃子Crate of Peach
+桃箱Crate of Peach
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

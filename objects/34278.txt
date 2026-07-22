@@ -1,5 +1,5 @@
 id=34278
-干燥的萌芽绿萝Bone Flower Pot with Dry Epipremnum Aureum Sprouts
+骨花壶，配以干燥的金表菌芽Bone Flower Pot with Dry Epipremnum Aureum Sprouts
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=14

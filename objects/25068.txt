@@ -1,5 +1,5 @@
 id=25068
-灰烬上的一碗熟咸鹅蛋Cooked Salted Goose Egg on Ashes
+熟咸鹅蛋在灰烬上Cooked Salted Goose Egg on Ashes
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

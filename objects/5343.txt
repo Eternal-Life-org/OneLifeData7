@@ -1,5 +1,5 @@
 id=5343
-猛犸象皮铠甲Mammoth Hide Gambeson #cloak red
+猛犸象皮铠甲Mammoth Hide Gambeson#cloak red
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

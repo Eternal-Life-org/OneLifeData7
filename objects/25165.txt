@@ -1,5 +1,5 @@
 id=25165
-白色兵White Pawn # ground
+白色爪子White Pawn# ground
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

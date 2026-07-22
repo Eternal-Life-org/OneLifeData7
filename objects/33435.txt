@@ -1,5 +1,5 @@
 id=33435
-大理石蛋白石地板 Marble Opal Floor# Blue
+大理石蛋白石地板Marble Opal Floor# Blue
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

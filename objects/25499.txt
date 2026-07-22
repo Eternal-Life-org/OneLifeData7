@@ -1,5 +1,5 @@
 id=25499
-带柳树剪枝的剪刀Shears with Willow Cutting
+柳树剪Shears with Willow Cutting
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

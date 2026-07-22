@@ -1,5 +1,5 @@
 id=30501
-三箱草莓Full Crates of Strawberry# 3
+装满草莓的箱子Full Crates of Strawberry# 3
 containable=1
 containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

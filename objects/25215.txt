@@ -1,5 +1,5 @@
 id=25215
-象棋马Chess Knight # Red on Ground
+国际象棋骑士Chess Knight# Red on Ground
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=34286
-浇灌绿萝幼苗Plant Box with Wet Epipremnum Aureum Cutting
+金表菌湿切植物箱Plant Box with Wet Epipremnum Aureum Cutting
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

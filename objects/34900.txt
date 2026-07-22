@@ -1,5 +1,5 @@
 id=34900
-一堆满箱褐铁矿Pile of Limonite with Mine Boes
+褐铁矿矿坑堆Pile of Limonite with Mine Boes
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=14

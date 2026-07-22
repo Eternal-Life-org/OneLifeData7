@@ -1,5 +1,5 @@
 id=25551
-干燥的萌芽粉红飞燕Dry Budding Delphinium
+干芽翠雀花Dry Budding Delphinium
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

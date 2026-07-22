@@ -1,5 +1,5 @@
 id=30950
-骨瓷长板上的猪骨Pig Bones on China Long Plate
+中国长板上的猪骨Pig Bones on China Long Plate
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

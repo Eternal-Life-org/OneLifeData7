@@ -1,5 +1,5 @@
 id=7249
-加油站Fill Station #E
+加油站Fill Station#E
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

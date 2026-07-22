@@ -1,5 +1,5 @@
 id=7541
-一箱芒果Full Crate of Mangoes
+满满一箱芒果Full Crate of Mangoes
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

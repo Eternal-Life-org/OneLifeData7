@@ -1,5 +1,5 @@
 id=13861
-3级沙漠石灰石矿井Desert Limestone Mine #3
+沙漠石灰石矿Desert Limestone Mine#3
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

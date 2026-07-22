@@ -1,5 +1,5 @@
 id=30068
-被木钳夹着的一罐浓硫酸Mason Jar of High H2SO4 in Wooden Tongs# Condensed
+木钳与浓硫酸梅森罐木钳与浓硫酸梅森罐Mason Jar of High H2SO4 in Wooden Tongs# Condensed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

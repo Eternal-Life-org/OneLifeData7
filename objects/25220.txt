@@ -1,5 +1,5 @@
 id=25220
-象棋相Chess Elephant # Red on Ground
+国际象棋大象Chess Elephant# Red on Ground
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

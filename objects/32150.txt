@@ -1,5 +1,5 @@
 id=32150
-活塞式飞机
+活塞式飞机# VOG +fly
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

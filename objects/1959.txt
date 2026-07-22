@@ -1,5 +1,5 @@
 id=1959
-骰子Die Roll of Two
+掷出2Die Roll of Two
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=1,minPickupAge=3

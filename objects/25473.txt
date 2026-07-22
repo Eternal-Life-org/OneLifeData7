@@ -1,5 +1,5 @@
 id=25473
-带窗砖墙Brick Wall  with Windowsill # catLayingBall +noBackAccess
+带窗砖墙Brick Wall  with Windowsill# catLayingBall +noBackAccess
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

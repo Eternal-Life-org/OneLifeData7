@@ -1,5 +1,5 @@
 id=25173
-深色象Dark Bishop # held
+黑暗主教Dark Bishop# held
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

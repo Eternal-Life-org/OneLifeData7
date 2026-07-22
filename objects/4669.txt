@@ -1,5 +1,5 @@
 id=4669
-公猛犸象Bull Mammoth #wild female
+公猛犸象Bull Mammoth#wild female
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

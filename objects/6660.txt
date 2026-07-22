@@ -1,5 +1,5 @@
 id=6660
-雪茄烟盒Cheroot Box #open
+雪茄烟盒Cheroot Box#open
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

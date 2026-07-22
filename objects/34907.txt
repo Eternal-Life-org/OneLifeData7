@@ -1,5 +1,5 @@
 id=34907
-一箱未满的蓝蛋白石矿Blue Opal Mine with Mine Box
+带矿箱的蓝色蛋白石矿Blue Opal Mine with Mine Box
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=14

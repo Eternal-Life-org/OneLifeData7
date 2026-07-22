@@ -1,5 +1,5 @@
 id=34279
-浇灌萌芽鸭掌木Bone Flower Pot with Wet Schefflera Sprouts
+骨花盆配湿沙夫雷拉芽Bone Flower Pot with Wet Schefflera Sprouts
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=14

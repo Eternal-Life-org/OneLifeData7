@@ -1,5 +1,5 @@
 id=34241
-灌木丛和鸭掌木剪枝Thicket with Schefflera Cutting
+带Schefflera切割的加厚面料Thicket with Schefflera Cutting
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

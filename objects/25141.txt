@@ -1,5 +1,5 @@
 id=25141
-工作台上的兵Pawn on Wood Work Bench
+木板工作台上的爪子Pawn on Wood Work Bench
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

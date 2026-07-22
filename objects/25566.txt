@@ -1,5 +1,5 @@
 id=25566
-干燥萌芽的蓝菊花Dry Budding Chrysanthemum
+干花菊花Dry Budding Chrysanthemum
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=10579
-热铁锅和调味鳟鱼Hot Cast Iron Pan with Seasoned Trout Fillet
+热铸铁锅配调味鳟鱼片Hot Cast Iron Pan with Seasoned Trout Fillet
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

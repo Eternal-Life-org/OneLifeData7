@@ -1,5 +1,5 @@
 id=34223
-灌木丛和湿砖混合物Thicket with Wet Brick Mixture
+用湿砖混合物加厚Thicket with Wet Brick Mixture
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

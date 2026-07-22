@@ -1,5 +1,5 @@
 id=25200
-象棋兵Chess Pawn # Red on Ground
+棋子Chess Pawn# Red on Ground
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

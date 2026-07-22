@@ -1,5 +1,5 @@
 id=30613
-熔炉中的湿骨瓷花盆Firing Stone Furnace with Bone China Pot
+骨瓷锅烧石炉Firing Stone Furnace with Bone China Pot
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

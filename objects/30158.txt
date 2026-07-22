@@ -1,5 +1,5 @@
 id=30158
-钢管三杆桩Pile of Steel Pipes and Three Steel Rods# ball net
+钢管三杆桩钢管三杆桩Pile of Steel Pipes and Three Steel Rods# ball net
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=1,minPickupAge=3

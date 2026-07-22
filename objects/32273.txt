@@ -1,5 +1,5 @@
 id=32273
-1级矿井和木板Mine# 1 board
+矿脉Mine# 1 board
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

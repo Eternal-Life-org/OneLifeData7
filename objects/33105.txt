@@ -1,5 +1,5 @@
 id=33105
-熔炉中上釉的骨瓷长板Closed Firing Stone with Glazed Firing Bone China LongPlant
+封闭式烧石配釉烧骨瓷 LongPlantClosed Firing Stone with Glazed Firing Bone China LongPlant
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

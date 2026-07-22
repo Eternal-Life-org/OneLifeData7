@@ -1,5 +1,5 @@
 id=34364
-浇灌萌芽绿萝Wet Wooden Flower Pot Epipremnum Aureum Sprouts
+湿木花盆金黄色淫羊藿芽Wet Wooden Flower Pot Epipremnum Aureum Sprouts
 containable=1
 containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

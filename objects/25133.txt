@@ -1,5 +1,5 @@
 id=25133
-象Bishop # held
+主教Bishop# held
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

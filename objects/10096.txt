@@ -1,5 +1,5 @@
 id=10096
-桌子上的生披萨Table with Raw Pizza #meat
+桌子上的生披萨Table with Raw Pizza#meat
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

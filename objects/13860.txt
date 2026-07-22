@@ -1,5 +1,5 @@
 id=13860
-3级沙漠铁矿矿井和铁矿Desert Iron Mine with Iron Ore #3
+沙漠铁矿与铁矿石Desert Iron Mine with Iron Ore#3
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

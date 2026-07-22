@@ -1,5 +1,5 @@
 id=7554
-一箱未满椰子Crate of Coconuts
+一箱椰子Crate of Coconuts
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

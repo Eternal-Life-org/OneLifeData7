@@ -1,5 +1,5 @@
 id=8211
-空石壁炉和剪下的花环Empty Stone Fireplace with Detached Garland #eveHomeMarker
+空石壁炉和剪下的花环Empty Stone Fireplace with Detached Garland#eveHomeMarker
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

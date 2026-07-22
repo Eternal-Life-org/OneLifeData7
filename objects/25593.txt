@@ -1,5 +1,5 @@
 id=25593
-盆栽里的红银莲花Blooming Red Windflower
+盛开的红色风花Blooming Red Windflower
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

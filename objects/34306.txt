@@ -1,5 +1,5 @@
 id=34306
-宽木板+小木板+钢梁Wide Board with Pile of Short Boards and Iron Beam
+带有短板堆和铁梁的宽板Wide Board with Pile of Short Boards and Iron Beam
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

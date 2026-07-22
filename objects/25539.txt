@@ -1,5 +1,5 @@
 id=25539
-干燥的粉红牡丹幼苗Dry Peony Seedling
+牡丹干苗Dry Peony Seedling
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

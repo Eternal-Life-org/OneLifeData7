@@ -1,5 +1,5 @@
 id=30669
-盐水罐中的鳟鱼Trout in Crock of Water
+鳟鱼在水中Trout in Crock of Water
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

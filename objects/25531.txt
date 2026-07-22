@@ -1,5 +1,5 @@
 id=25531
-干燥的矢车菊Dry Budding Corn Flower
+干枯的玉米花Dry Budding Corn Flower
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

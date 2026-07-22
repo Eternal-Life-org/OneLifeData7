@@ -1,5 +1,5 @@
 id=13996
-热铁锅和鳕鱼Hot Cast Iron Pan with Cod Fillet
+热铸铁锅配鳕鱼片Hot Cast Iron Pan with Cod Fillet
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

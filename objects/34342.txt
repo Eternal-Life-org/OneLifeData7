@@ -1,5 +1,5 @@
 id=34342
-干燥的萌芽绿萝Dry Wooden Flower Pot Epipremnum Aureum Sprouts
+干式木制花盆金黄色淫羊藿芽Dry Wooden Flower Pot Epipremnum Aureum Sprouts
 containable=1
 containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

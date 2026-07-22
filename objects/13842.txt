@@ -1,5 +1,5 @@
 id=13842
-2级沙漠矿井Desert Mine with Lit Explosive #2
+沙漠地雷点燃炸药Desert Mine with Lit Explosive#2
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

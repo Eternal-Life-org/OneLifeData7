@@ -1,5 +1,5 @@
 id=7534
-一箱土豆Full Crate of Potatoes
+满满一箱土豆Full Crate of Potatoes
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

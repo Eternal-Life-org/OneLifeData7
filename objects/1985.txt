@@ -1,5 +1,5 @@
 id=1985
-骰子Dice Roll of Nine# 3 6
+掷出9Dice Roll of Nine# 3 6
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=1,minPickupAge=3

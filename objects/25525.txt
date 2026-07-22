@@ -1,5 +1,5 @@
 id=25525
-莲花育苗Lotus Cutting Sapling
+荷花扦插育苗Lotus Cutting Sapling
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=30503
-三箱草莓Crates of Strawberry# 3 Empty
+草莓板条箱Crates of Strawberry# 3 Empty
 containable=1
 containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

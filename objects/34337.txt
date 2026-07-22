@@ -1,5 +1,5 @@
 id=34337
-干燥的鸭掌木幼苗Dry Wooden Flower Pot Schefflera Cutting
+干木花壶Schefflera切割Dry Wooden Flower Pot Schefflera Cutting
 containable=1
 containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=11837
-已喂食的小猫Fed Kitten #dark held
+美联储小猫Fed Kitten#dark held
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

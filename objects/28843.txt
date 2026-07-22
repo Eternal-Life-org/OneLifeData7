@@ -1,5 +1,5 @@
 id=28843
-灯柱 Light Post #2 shut down,N
+Light Post#2 shut down,N
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

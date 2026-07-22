@@ -1,5 +1,5 @@
 id=30095
-生橡胶覆盖层粘土板Clay Plate of Raw Rubber cover
+生橡胶覆盖层粘土板生橡胶覆盖层粘土板Clay Plate of Raw Rubber cover
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

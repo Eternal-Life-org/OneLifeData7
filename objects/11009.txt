@@ -1,5 +1,5 @@
 id=11009
-两箱未满香蕉Crates of Bananas #2
+一箱箱香蕉Crates of Bananas#2
 containable=1
 containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

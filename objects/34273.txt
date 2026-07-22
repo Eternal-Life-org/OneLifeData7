@@ -1,5 +1,5 @@
 id=34273
-干燥的鸭掌木幼苗Bone Flower Pot with Dry Schefflera Cutting
+骨花盆配干沙夫雷拉切割Bone Flower Pot with Dry Schefflera Cutting
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=14

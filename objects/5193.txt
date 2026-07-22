@@ -1,5 +1,5 @@
 id=5193
-筑巢母鸡Nesting Hen #eggless
+筑巢母鸡Nesting Hen#eggless
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3

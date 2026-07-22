@@ -1,5 +1,5 @@
 id=14225
-铜管Copper Pipe #NW #justGone
+铜管Copper Pipe#NW #justGone
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

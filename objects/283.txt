@@ -1,5 +1,5 @@
 id=283
-被木钳夹着的粘土碗Wooden Tongs with Fired Bowl
+被木钳夹着的烧制粘土碗Wooden Tongs with Fired Bowl
 containable=0
 containSize=1,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

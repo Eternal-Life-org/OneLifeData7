@@ -1,5 +1,5 @@
 id=25791
-钢箱中的蠕虫堆
+钢箱中的蠕虫堆Pile of Worms in Steel Box# 活动专用 _x000D_   VOG
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

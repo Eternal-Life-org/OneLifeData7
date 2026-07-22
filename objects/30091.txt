@@ -1,5 +1,5 @@
 id=30091
-堆叠的小大理石瓷砖Stack of Small Marble Tiles# Black of White
+堆叠的小大理石瓷砖堆叠的小大理石瓷砖Stack of Small Marble Tiles# Black of White
 containable=1
 containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=14

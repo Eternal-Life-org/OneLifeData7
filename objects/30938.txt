@@ -1,5 +1,5 @@
 id=30938
-填过土的松软地与草莓种子Filled Hole with Soil and Steawberry Seed
+用土壤和草莓种子填满洞Filled Hole with Soil and Steawberry Seed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

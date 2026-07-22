@@ -1,5 +1,5 @@
 id=13849
-2级沙漠硝石矿井和硝石Desert Mine with Niter #2 #exploratory
+沙漠矿井与尼特Desert Mine with Niter#2 #exploratory
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

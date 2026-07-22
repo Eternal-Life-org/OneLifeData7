@@ -1,5 +1,5 @@
 id=5177
-横幅Banner# ivory
+横幅Banner#ivory
 containable=1
 containSize=1,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

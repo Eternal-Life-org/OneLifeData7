@@ -1,5 +1,5 @@
 id=25591
-干燥的萌芽红银莲花Dry Budding Red Windflower
+干枯的红色风花Dry Budding Red Windflower
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

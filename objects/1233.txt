@@ -1,5 +1,5 @@
 id=1233
-灰烬上的一碗盐Ashes with Bowl of Salt
+灰烬堆中的一碗盐Ashes with Bowl of Salt
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

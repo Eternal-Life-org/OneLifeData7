@@ -1,5 +1,5 @@
 id=7968
-打开的海盗宝箱Open Pirate Chest
+打开海盗宝箱Open Pirate Chest
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

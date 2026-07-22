@@ -1,5 +1,5 @@
 id=34216
-灌木丛和挖出的蒲公英Thicket with Dug Dandelion
+厚厚的蒲公英Thicket with Dug Dandelion
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

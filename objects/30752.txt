@@ -1,5 +1,5 @@
 id=30752
-鳕鱼与海藻Deep Water with Cod# +noHighlight groundOnly breed
+深水鳕鱼Deep Water with Cod# +noHighlight groundOnly breed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

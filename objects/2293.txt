@@ -1,5 +1,5 @@
 id=2293
-被木钳夹着的热钢棒Hot Steel Rod in Wooden Tongs
+木制钳子中的热钢棒Hot Steel Rod in Wooden Tongs
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

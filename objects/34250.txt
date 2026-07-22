@@ -1,5 +1,5 @@
 id=34250
-带绿萝剪枝的剪刀Shears with Epipremnum Aureum Cutting
+带金表皮切割的剪切器Shears with Epipremnum Aureum Cutting
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

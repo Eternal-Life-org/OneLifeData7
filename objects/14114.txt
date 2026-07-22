@@ -1,5 +1,5 @@
 id=14114
-一锅番茄汤Pot of Tomato Soup
+番茄汤锅Pot of Tomato Soup
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

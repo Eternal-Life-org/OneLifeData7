@@ -1,5 +1,5 @@
 id=14009
-热铁锅和煎熟的玉米饼Hot Cast Iron Pan with Cooked Corn Tortilla
+热铸铁锅配煮熟的玉米饼Hot Cast Iron Pan with Cooked Corn Tortilla
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

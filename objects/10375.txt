@@ -1,5 +1,5 @@
 id=10375
-带红金鱼草剪枝的剪刀Shears with Red Snapdragon Cutting
+红金鱼草剪刀Shears with Red Snapdragon Cutting
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

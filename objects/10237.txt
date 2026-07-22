@@ -1,5 +1,5 @@
 id=10237
-被木钳夹着的热的缝纫机主体Hot Partial Sewing Machine #wooden tongs
+被木钳夹着的热的缝纫机主体Hot Partial Sewing Machine#wooden tongs
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=14141
-一锅浸泡的甘蔗果肉Pot of Soaking Sugarcane Pulp
+浸泡甘蔗浆的锅Pot of Soaking Sugarcane Pulp
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

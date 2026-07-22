@@ -1,5 +1,5 @@
 id=25486
-带窗台和枕头的木墙Wooden Wall  with Windowsill and Pillow # light +noBackAccess
+带窗台和枕头的木墙Wooden Wall  with Windowsill and Pillow# light +noBackAccess
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

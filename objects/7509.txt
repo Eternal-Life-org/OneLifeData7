@@ -1,5 +1,5 @@
 id=7509
-三箱番茄Full Crates of Tomatoes #3
+满满一箱番茄Full Crates of Tomatoes#3
 containable=1
 containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

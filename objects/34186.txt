@@ -1,5 +1,5 @@
 id=34186
-一堆酸橙Pile of Bitter Orange
+一堆苦橙Pile of Bitter Orange
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=31425
-玻璃切割台与滴管
+玻璃切割台与滴管# 没有煤油
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

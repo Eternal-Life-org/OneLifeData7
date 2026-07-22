@@ -1,5 +1,5 @@
 id=28982
-盛开的紫藤花树Staked Blooming Wisteria Tree # Floating Flowers# W
+盛开的紫藤花树 Staked Blooming Wisteria Tree# Floating Flowers# W
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

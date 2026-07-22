@@ -1,5 +1,5 @@
 id=25575
-湿润的虎尾兰幼苗Watered Snake Plant Seedling
+浇灌蛇苗Watered Snake Plant Seedling
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

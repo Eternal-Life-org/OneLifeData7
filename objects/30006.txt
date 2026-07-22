@@ -1,5 +1,5 @@
 id=30006
-带青金石的马赛克地板Mosaic Floor with pile Lapis Lazuli 1
+青金石拼花地板青金石拼花地板1Mosaic Floor with pile Lapis Lazuli 1
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

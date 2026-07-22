@@ -1,5 +1,5 @@
 id=2706
-煤油罐Tank of Kerosene# just filled
+一箱柴油Tank of Kerosene# just filled
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

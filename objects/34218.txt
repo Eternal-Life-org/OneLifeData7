@@ -1,5 +1,5 @@
 id=34218
-灌木丛和英格兰常春藤剪枝Thicket with England Ivy Cutting
+英国常春藤切割加厚Thicket with England Ivy Cutting
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=7614
-一箱未满野生洋葱Crate of Wild Onions
+一箱野生洋葱Crate of Wild Onions
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

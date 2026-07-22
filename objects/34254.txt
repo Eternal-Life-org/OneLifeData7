@@ -1,5 +1,5 @@
 id=34254
-浇灌绿萝幼苗Wet Epipremnum Aureum Cutting
+湿法金表位菌切割Wet Epipremnum Aureum Cutting
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

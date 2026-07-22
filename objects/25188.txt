@@ -1,5 +1,5 @@
 id=25188
-工作台上的的象棋毛胚Chess Embryo on Wood Work Bench # Chinese Chess
+木工台上的象棋胚胎Chess Embryo on Wood Work Bench# Chinese Chess
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

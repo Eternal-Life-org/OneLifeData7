@@ -1,5 +1,5 @@
 id=13828
-3级铁矿矿井和铁矿Iron Mine with Iron Ore #3
+铁矿与铁矿石Iron Mine with Iron Ore#3
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

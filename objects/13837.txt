@@ -1,5 +1,5 @@
 id=13837
-3级原生铜矿井Copper Mine #3 #justBuilt
+铜矿Copper Mine#3 #justBuilt
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

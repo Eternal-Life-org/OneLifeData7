@@ -1,5 +1,5 @@
 id=30747
-深水中的鳕鱼卵Deep Water# +noHighlight groundOnly seaweed Cod Fry
+深水区Deep Water# +noHighlight groundOnly seaweed Cod Fry
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

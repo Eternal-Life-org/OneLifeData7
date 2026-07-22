@@ -1,5 +1,5 @@
 id=11866
-蛇植物与蛇Snake Plant with Snake #peeking
+蛇植物与蛇Snake Plant with Snake#peeking
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

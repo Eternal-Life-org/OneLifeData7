@@ -1,5 +1,5 @@
 id=7069
-游牧者长裤Nomad Pants #black
+游牧者长裤Nomad Pants#black
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

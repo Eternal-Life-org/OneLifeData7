@@ -1,5 +1,5 @@
 id=34304
-一堆小木板和宽木板 Wide Board with Pile of Short Boards# light
+带有短板堆的宽板Wide Board with Pile of Short Boards# light
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=7986
-一袋生石灰Sack of Quicklime #4
+一袋生石灰Sack of Quicklime#4
 containable=1
 containSize=2.000000,vertSlotRot=-0.245000
 permanent=0,minPickupAge=3

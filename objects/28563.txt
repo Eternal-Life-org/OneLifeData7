@@ -1,5 +1,5 @@
 id=28563
-Perhaps a Circular Steel SheetPerhaps a Circular Steel Sheet
+Perhaps a Circular Steel Sheet
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

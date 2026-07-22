@@ -1,5 +1,5 @@
 id=8693
-熊皮地毯Bear Skin Rug #dark
+熊皮地毯Bear Skin Rug#dark
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

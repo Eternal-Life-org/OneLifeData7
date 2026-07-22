@@ -1,5 +1,5 @@
 id=30648
-骨瓷长板China LongPlate# Gold
+中国长板China LongPlate# Gold
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

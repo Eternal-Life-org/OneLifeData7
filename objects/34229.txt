@@ -1,5 +1,5 @@
 id=34229
-灌木丛和裸盖菇Thicket with Psilocybe Mushroom
+蘑菇浓汤Thicket with Psilocybe Mushroom
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

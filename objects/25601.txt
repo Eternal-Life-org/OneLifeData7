@@ -1,5 +1,5 @@
 id=25601
-也许草Perhaps Grass # +noHighlight
+也许草Perhaps Grass# +noHighlight
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

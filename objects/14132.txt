@@ -1,5 +1,5 @@
 id=14132
-一锅没煮的米饭Pot of Rinsed Rice with Water
+一锅淘米水Pot of Rinsed Rice with Water
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

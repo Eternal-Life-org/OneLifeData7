@@ -1,5 +1,5 @@
 id=13991
-热铁锅和鲈鱼Hot Cast Iron Pan with Bass
+有鲈鱼的热铸铁锅Hot Cast Iron Pan with Bass
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

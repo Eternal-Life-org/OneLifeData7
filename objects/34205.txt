@@ -1,5 +1,5 @@
 id=34205
-灌木丛和野洋葱Thicket with Dug WildOnion
+蒜头洋葱浓汤Thicket with Dug WildOnion
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

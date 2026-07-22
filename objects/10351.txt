@@ -1,5 +1,5 @@
 id=10351
-带粉红飞燕草剪枝的剪刀Shears with Pink Delphinium Cutting
+粉色翠雀花剪Shears with Pink Delphinium Cutting
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

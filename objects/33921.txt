@@ -1,5 +1,5 @@
 id=33921
-一堆钢丝Pile of Steel Wire
+钢丝桩Pile of Steel Wire
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

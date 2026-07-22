@@ -1,5 +1,5 @@
 id=30796
-一箱蜂王浆Full Bee Box# Bee milk
+满蜂盒Full Bee Box# Bee milk
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=25159
-白色马White Knight # ground
+白骑士White Knight# ground
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

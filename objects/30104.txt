@@ -1,5 +1,5 @@
 id=30104
-足球网架Football Net Frame# East
+足球网架足球网架Football Net Frame# East
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=30013
-一篮钻石Basket of Diamondses
+一篮钻石一篮钻石Basket of Diamondses
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

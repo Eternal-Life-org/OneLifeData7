@@ -1,5 +1,5 @@
 id=10332
-干柳兰芽Dry Fire Weed Sprout
+干火杂草发芽Dry Fire Weed Sprout
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

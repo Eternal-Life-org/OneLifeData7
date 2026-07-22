@@ -1,5 +1,5 @@
 id=29104
-带一堆钢丝的薄钢管Thin Steel Pipe with Steal Wire
+带钢丝的薄钢管Thin Steel Pipe with Steal Wire
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=30170
-青金石木桶Wooden Barrel of Lapis lazulis
+青金石木桶青金石木桶Wooden Barrel of Lapis lazulis
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=14

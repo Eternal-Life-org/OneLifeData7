@@ -1,5 +1,5 @@
 id=34292
-茁壮的绿萝Plant Box with Epipremnum Aureum
+金表菌植物箱Plant Box with Epipremnum Aureum
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

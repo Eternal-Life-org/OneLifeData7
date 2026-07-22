@@ -1,5 +1,5 @@
 id=34899
-两箱褐铁矿Full Limonite with Mine Boes# 2
+富含褐铁矿和矿石Full Limonite with Mine Boes# 2
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=14

@@ -1,5 +1,5 @@
 id=33926
-一堆铜丝Steel Wire Pile# Use5
+钢丝桩Steel Wire Pile# Use5
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

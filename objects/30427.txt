@@ -1,5 +1,5 @@
 id=30427
-热铁锅和猪油渣Hot Cast Iron Pan with Lard residue
+带有猪油残渣的热铸铁锅Hot Cast Iron Pan with Lard residue
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

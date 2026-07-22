@@ -1,5 +1,5 @@
 id=13888
-4级铁矿矿井Iron Mine #4
+铁矿Iron Mine#4
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

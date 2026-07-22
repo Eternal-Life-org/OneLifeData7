@@ -1,5 +1,5 @@
 id=34224
-灌木丛和硅石Thicket with Silica
+二氧化硅增稠剂Thicket with Silica
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

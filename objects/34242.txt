@@ -1,5 +1,5 @@
 id=34242
-灌木丛和绿萝剪枝Thicket with Epipremnum Aureum Cutting
+带金表雄酮切割的厚片Thicket with Epipremnum Aureum Cutting
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

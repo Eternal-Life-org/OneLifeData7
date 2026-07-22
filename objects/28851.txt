@@ -1,5 +1,5 @@
 id=28851
-灯柱 Light Post #2 on,E
+Light Post#2 on,E
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

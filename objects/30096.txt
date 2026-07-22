@@ -1,5 +1,5 @@
 id=30096
-橡胶套Rubber Cover
+橡胶套橡胶套Rubber Cover
 containable=1
 containSize=1.000000,vertSlotRot=1.000000
 permanent=0,minPickupAge=3

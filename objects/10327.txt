@@ -1,5 +1,5 @@
 id=10327
-带柳兰剪枝的剪刀Shears with Fire Weed Cutting
+带火除草的剪刀Shears with Fire Weed Cutting
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

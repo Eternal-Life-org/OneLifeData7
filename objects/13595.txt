@@ -1,5 +1,5 @@
 id=13595
-被木钳夹着的石灰砾石和粘土Wooden Tongs with Crock of Lime Gravel and Clay
+带有石灰砾石和粘土的木钳Wooden Tongs with Crock of Lime Gravel and Clay
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

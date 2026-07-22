@@ -1,5 +1,5 @@
 id=34213
-灌木丛和小麦种子Thicket with Wheat Seed Head
+小麦种子头加厚Thicket with Wheat Seed Head
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

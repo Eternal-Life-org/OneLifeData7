@@ -1,5 +1,5 @@
 id=7979
-空的家养醋栗丛Empty Domestic Gooseberry Bush #sparrow flee
+空的家养醋栗丛Empty Domestic Gooseberry Bush#sparrow flee
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

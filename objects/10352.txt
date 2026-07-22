@@ -1,5 +1,5 @@
 id=10352
-粉红飞燕草剪枝Pink Delphinium Cutting
+粉色飞燕草切割Pink Delphinium Cutting
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

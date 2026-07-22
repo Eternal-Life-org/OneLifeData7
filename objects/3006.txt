@@ -1,5 +1,5 @@
 id=3006
-被木钳夹着的热琥珀金坩埚Hot Electrum Crucible in Wooden Tongs
+木制钳子夹着的热琥珀金坩埚Hot Electrum Crucible in Wooden Tongs
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

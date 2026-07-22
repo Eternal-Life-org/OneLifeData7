@@ -1,5 +1,5 @@
 id=30498
-两箱草莓Full Crates of Strawberry# 2
+装满草莓的箱子Full Crates of Strawberry# 2
 containable=1
 containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

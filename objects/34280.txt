@@ -1,5 +1,5 @@
 id=34280
-浇灌萌芽绿萝Bone Flower Pot with Wet Epipremnum Aureum Sprouts
+带金黄色淫羊藿芽的骨花盆Bone Flower Pot with Wet Epipremnum Aureum Sprouts
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=14

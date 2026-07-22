@@ -1,5 +1,5 @@
 id=7571
-打码锁的松木门Open Password Locked Pine Door# vert +password-protectable
+打开密码锁的松木门Open Password Locked Pine Door# vert +password-protectable
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

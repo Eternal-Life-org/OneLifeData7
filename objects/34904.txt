@@ -1,5 +1,5 @@
 id=34904
-两箱未满的橙蛋白石矿Fire Opal Mine with Mine Boes# 2
+用水钻点燃蛋白石矿Fire Opal Mine with Mine Boes# 2
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=14

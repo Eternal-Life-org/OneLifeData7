@@ -1,5 +1,5 @@
 id=10566
-热铁锅和黄油Hot Cast Iron Pan with Butter
+热铸铁锅加黄油Hot Cast Iron Pan with Butter
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

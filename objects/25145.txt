@@ -1,5 +1,5 @@
 id=25145
-工作台上的浅色原木Light Log on Wood Work Bench
+轻型木制工作台Light Log on Wood Work Bench
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

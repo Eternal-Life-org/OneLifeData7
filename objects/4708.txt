@@ -1,5 +1,5 @@
 id=4708
-死公猛犸象Dead Bull Mammoth #gutted spear
+死公猛犸象Dead Bull Mammoth#gutted spear
 containable=0
 containSize=1,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

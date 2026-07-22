@@ -1,5 +1,5 @@
 id=11877
-笼子里的三花猫Caged Calico Cat
+笼中的三色猫Caged Calico Cat
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

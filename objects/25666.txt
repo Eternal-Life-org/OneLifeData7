@@ -1,5 +1,5 @@
 id=25666
-一盘生冰皮Raw Snowy Moon Cake Crust
+生雪月饼皮Raw Snowy Moon Cake Crust
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

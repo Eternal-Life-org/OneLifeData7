@@ -1,5 +1,5 @@
 id=25663
-一碗加糖和油的糯米粉Bowl of Polished Flour with Sugar and Oil
+一碗加糖和油的抛光面粉Bowl of Polished Flour with Sugar and Oil
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

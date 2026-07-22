@@ -1,5 +1,5 @@
 id=25586
-干燥的萌芽龟背竹Dry Maturing Monstera
+干燥成熟的怪兽Dry Maturing Monstera
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

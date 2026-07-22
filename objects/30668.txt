@@ -1,5 +1,5 @@
 id=30668
-盐水罐中的鳕鱼Cod in Crock of Water
+鳕鱼在水中Cod in Crock of Water
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

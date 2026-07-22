@@ -1,5 +1,5 @@
 id=1514
-西轨道终点Track End #W
+西轨道终点Track End#W
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

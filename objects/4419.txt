@@ -1,5 +1,5 @@
 id=4419
-（已过时）受祝福的神社Blessed Shrine #A
+（已过时）受祝福的神社Blessed Shrine#A
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3

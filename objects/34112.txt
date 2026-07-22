@@ -1,5 +1,5 @@
 id=34112
-牛肩胛骨Cow Scapula
+奶牛肩胛骨Cow Scapula
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

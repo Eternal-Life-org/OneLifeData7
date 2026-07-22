@@ -1,5 +1,5 @@
 id=30438
-湿润的野生莴苣种子Wet planted Wild Lettuce seed
+湿栽野生生菜种子Wet planted Wild Lettuce seed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

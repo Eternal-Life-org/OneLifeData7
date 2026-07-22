@@ -1,5 +1,5 @@
 id=25710
-云腿月饼Plate of Cooked Yunnan Hum Mooncake
+云南腐植酸月饼拼盘Plate of Cooked Yunnan Hum Mooncake
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

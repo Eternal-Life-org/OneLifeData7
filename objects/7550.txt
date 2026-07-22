@@ -1,5 +1,5 @@
 id=7550
-一箱未满卷心菜Crate of Cabbages
+一箱卷心菜Crate of Cabbages
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

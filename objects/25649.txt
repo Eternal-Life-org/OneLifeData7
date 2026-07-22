@@ -1,5 +1,5 @@
 id=25649
-生豆沙月饼盘Plate of Raw  Bean Paste Mooncakes # Unplasticity
+生豆沙月饼盘Plate of Raw  Bean Paste Mooncakes# Unplasticity
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

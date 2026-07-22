@@ -1,5 +1,5 @@
 id=30601
-湿骨瓷盘Wet Bone China Plate
+湿骨瓷板Wet Bone China Plate
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

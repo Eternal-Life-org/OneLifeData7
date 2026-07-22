@@ -1,5 +1,5 @@
 id=14135
-一锅螃蟹Pot of Crab#heating
+螃蟹锅Pot of Crab#heating
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

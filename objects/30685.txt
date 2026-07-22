@@ -1,5 +1,5 @@
 id=30685
-竹网中的北极红点鲑Bamboo Net with ArcticChar# just caught
+带ArcticChar的竹网Bamboo Net with ArcticChar# just caught
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

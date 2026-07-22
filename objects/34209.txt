@@ -1,5 +1,5 @@
 id=34209
-灌木丛和野生马铃薯块Thicket with Wild Potato
+野生土豆浓汤Thicket with Wild Potato
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

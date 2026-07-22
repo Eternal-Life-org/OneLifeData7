@@ -1,5 +1,5 @@
 id=25685
-模具中的生豆沙月饼Mooncake Mold on Plate of Raw  Bean Paste Mooncakes # Unplasticity
+生豆沙月饼盘上的月饼模具Mooncake Mold on Plate of Raw  Bean Paste Mooncakes# Unplasticity
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

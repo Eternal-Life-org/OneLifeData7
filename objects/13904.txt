@@ -1,5 +1,5 @@
 id=13904
-运行中的4级沙漠硝石矿井Running Desert Niter Mine #4
+奔跑沙漠硝石矿Running Desert Niter Mine#4
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

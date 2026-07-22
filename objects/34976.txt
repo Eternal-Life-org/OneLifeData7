@@ -1,5 +1,5 @@
 id=34976
-停机坪与天堂海湾补给箱Crude Airplane on Piston Strip
+活塞带上的原油飞机Crude Airplane on Piston Strip
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=34430
-珍珠岩保温墙Expanded Ferlite lnsulation Wall
+膨胀铁素体隔热墙Expanded Ferlite lnsulation Wall
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=33006
-带大块花岗岩的轮式手推车Wheeled Hand Cart with Silica Rock
+带硅石的轮式手推车Wheeled Hand Cart with Silica Rock
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=16

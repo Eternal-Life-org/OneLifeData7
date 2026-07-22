@@ -1,5 +1,5 @@
 id=34222
-灌木丛和乳草茎Thicket with Milkweed Stalk
+用Milkweed茎加厚Thicket with Milkweed Stalk
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

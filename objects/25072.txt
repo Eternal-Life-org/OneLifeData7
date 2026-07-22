@@ -1,5 +1,5 @@
 id=25072
-一锅糯米Pot of Cooked Polished Glutinous Rice
+锅仔糯米Pot of Cooked Polished Glutinous Rice
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

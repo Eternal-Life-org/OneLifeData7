@@ -1,5 +1,5 @@
 id=33991
-一碗碎珍珠岩Bowl with Crushed Perlites 1S
+1S碎珍珠岩碗Bowl with Crushed Perlites 1S
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

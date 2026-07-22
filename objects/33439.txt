@@ -1,5 +1,5 @@
 id=33439
-大理石镶蛋白石块 Marble Inlay Opal Block# Blue
+大理石镶蛋白石块Marble Inlay Opal Block# Blue
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=14

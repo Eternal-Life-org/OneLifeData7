@@ -1,5 +1,5 @@
 id=13967
-热铁锅和烤熟的兔肉Hot Cast Iron Pan with Cooked Rabbit
+热铸铁锅煮兔肉Hot Cast Iron Pan with Cooked Rabbit
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

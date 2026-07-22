@@ -1,5 +1,5 @@
 id=28694
-一堆宽木板Boards Stacks#light
+一堆宽木板 Boards Stacks#light
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

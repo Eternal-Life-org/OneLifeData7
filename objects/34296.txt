@@ -1,5 +1,5 @@
 id=34296
-一堆宽木板Wide Boards Stacks# dark
+宽板堆叠Wide Boards Stacks# dark
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

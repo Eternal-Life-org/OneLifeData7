@@ -1,5 +1,5 @@
 id=32204
-白色熊皮斗篷White Bear Skin Cloak
+白色熊皮斗篷 White Bear Skin Cloak
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

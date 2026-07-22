@@ -1,5 +1,5 @@
 id=34906
-一堆满箱橙蛋白石矿Pile of Fire Opal Mine with Mine Boes
+火堆蛋白石矿Pile of Fire Opal Mine with Mine Boes
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=14

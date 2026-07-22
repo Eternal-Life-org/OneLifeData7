@@ -1,5 +1,5 @@
 id=7716
-一碗粗制糖Bowl of Raw Sugar #just scooped
+一碗粗制糖Bowl of Raw Sugar#just scooped
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

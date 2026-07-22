@@ -1,5 +1,5 @@
 id=30116
-网Football Net Frame of Net# East
+网网Football Net Frame of Net# East
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

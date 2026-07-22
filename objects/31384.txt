@@ -1,5 +1,5 @@
 id=31384
-化学实验台
+化学实验台# 没有煤气 ZXC
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

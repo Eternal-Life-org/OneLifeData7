@@ -1,5 +1,5 @@
 id=12673
-两箱黄瓜Crates of Cucumbers #2 #Empty
+一箱箱黄瓜Crates of Cucumbers#2 #Empty
 containable=1
 containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

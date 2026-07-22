@@ -1,5 +1,5 @@
 id=25224
-象棋士Chess Mandarin # Black on Ground
+国际象棋普通话Chess Mandarin# Black on Ground
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

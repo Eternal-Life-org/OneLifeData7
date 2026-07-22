@@ -1,5 +1,5 @@
 id=1990
-骰子Dice Roll of Eleven# 5 6
+掷出11Dice Roll of Eleven# 5 6
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=1,minPickupAge=3

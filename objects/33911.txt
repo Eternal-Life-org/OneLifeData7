@@ -1,5 +1,5 @@
 id=33911
-生根的柚子树剪枝Rooting Pomelo Tree Cutting
+柚子树扦插生根Rooting Pomelo Tree Cutting
 containable=1
 containSize=1.000000,vertSlotRot=-0.500000
 permanent=0,minPickupAge=3

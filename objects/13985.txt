@@ -1,5 +1,5 @@
 id=13985
-热铁锅和红点鲑Hot Cast Iron Pan with Char Fillet
+热铸铁锅配炭烤鱼片Hot Cast Iron Pan with Char Fillet
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

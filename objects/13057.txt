@@ -1,5 +1,5 @@
 id=13057
-捕捞笼Fishing Pot#just made
+钓鱼锅Fishing Pot#just made
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

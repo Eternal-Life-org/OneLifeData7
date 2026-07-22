@@ -1,5 +1,5 @@
 id=8599
-一堆英式枫糖浆煎饼Stack of Pancakes with Syrup
+一堆薄煎饼加糖浆Stack of Pancakes with Syrup
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

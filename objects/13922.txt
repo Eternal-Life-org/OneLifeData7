@@ -1,5 +1,5 @@
 id=13922
-被木钳夹着的一碗金块Bowl of Gold Nugget in Wooden Tongs
+木钳中的一碗金块Bowl of Gold Nugget in Wooden Tongs
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

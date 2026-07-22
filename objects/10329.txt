@@ -1,5 +1,5 @@
 id=10329
-生根的柳兰剪枝Rooting Fire Weed Cutting
+生根火除草Rooting Fire Weed Cutting
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

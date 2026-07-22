@@ -1,5 +1,5 @@
 id=34265
-浇灌绿萝幼苗Clay Flower Pot with Wet Epipremnum Aureum Cutting
+金黄色淫羊藿湿切泥花盆Clay Flower Pot with Wet Epipremnum Aureum Cutting
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=14

@@ -1,5 +1,5 @@
 id=25269
-棋盘Chess Board # Red Edge Bevel two # groundOnly
+棋盘Chess Board# Red Edge Bevel two # groundOnly
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

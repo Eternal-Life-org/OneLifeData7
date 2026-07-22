@@ -1,5 +1,5 @@
 id=25127
-工作台上的皇后Queen on Wood Work Bench
+木制工作台上的女王Queen on Wood Work Bench
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

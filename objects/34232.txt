@@ -1,5 +1,5 @@
 id=34232
-毒蘑菇Amanita# remapStart +noFeeding +emotEat_10_50
+鹅膏菌Amanita# remapStart +noFeeding +emotEat_10_50
 containable=1
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

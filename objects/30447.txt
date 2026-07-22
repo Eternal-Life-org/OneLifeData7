@@ -1,5 +1,5 @@
 id=30447
-发芽的生菜Seeding Lettuce plant
+播种生菜Seeding Lettuce plant
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

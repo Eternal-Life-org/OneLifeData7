@@ -1,5 +1,5 @@
 id=32478
-黑色混纺底衣Wool Blend Sheets #2 #just sheared
+黑色混纺底衣Wool Blend Sheets#2 #just sheared
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

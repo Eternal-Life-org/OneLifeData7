@@ -1,5 +1,5 @@
 id=30678
-一堆陶瓷粘土China Clay pile
+中国粘土桩China Clay pile
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

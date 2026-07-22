@@ -1,5 +1,5 @@
 id=7519
-一箱鸡蛋Full Crate of Eggs
+满满一箱鸡蛋Full Crate of Eggs
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

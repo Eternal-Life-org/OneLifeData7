@@ -1,5 +1,5 @@
 id=30102
-板材弓形锯Bow Saw of Boards
+板材弓形锯板材弓形锯Bow Saw of Boards
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

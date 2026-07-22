@@ -1,5 +1,5 @@
 id=10622
-（已过时）木钳中的热铜线圈Hot Copper Coil in Wooden Tongs
+木钳中的热铜线圈Hot Copper Coil in Wooden Tongs
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

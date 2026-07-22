@@ -1,5 +1,5 @@
 id=13852
-2级沙漠石灰石矿井Desert Mine with Limestone Deposit #2 #exploratory
+有石灰石矿床的沙漠矿山Desert Mine with Limestone Deposit#2 #exploratory
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

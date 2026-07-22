@@ -1,5 +1,5 @@
 id=7667
-一堆挖出的树桩Pile of Dug Stumps #light
+一堆挖出的树桩Pile of Dug Stumps#light
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

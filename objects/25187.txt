@@ -1,5 +1,5 @@
 id=25187
-象棋毛胚Chess Embryo
+象棋胚胎Chess Embryo
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=25592
-浇水发芽的红银莲花Watered Budding Red Windflower
+浇水发芽的红风花Watered Budding Red Windflower
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

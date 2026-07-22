@@ -1,5 +1,5 @@
 id=25493
-带窗台和鹅枕的砂岩墙Sandstone Wall  with Windowsill and Goose on Pillow # +noBackAccess
+带窗台和鹅枕的砂岩墙Sandstone Wall  with Windowsill and Goose on Pillow# +noBackAccess
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

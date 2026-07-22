@@ -1,5 +1,5 @@
 id=4531
-装有麦芽浆的啤酒厂Distillery with Mash #firewood2
+装有麦芽浆的啤酒厂Distillery with Mash#firewood2
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

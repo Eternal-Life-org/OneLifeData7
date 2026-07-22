@@ -1,5 +1,5 @@
 id=8583
-灰烬上的一碗枫糖浆Ashes with Bowl of Maple Syrup
+灰烬与一碗枫糖浆Ashes with Bowl of Maple Syrup
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

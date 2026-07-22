@@ -1,5 +1,5 @@
 id=11533
-泰式鸡肉炒饭Chicken Stir Fry
+鸡肉炒Chicken Stir Fry
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

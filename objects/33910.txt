@@ -1,5 +1,5 @@
 id=33910
-柚子树剪枝Sweet Pomelo Tree Cutting
+甜柚树砍伐Sweet Pomelo Tree Cutting
 containable=1
 containSize=1.000000,vertSlotRot=-0.500000
 permanent=0,minPickupAge=3

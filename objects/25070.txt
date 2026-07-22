@@ -1,5 +1,5 @@
 id=25070
-一锅没煮的糯米Pot of Rinsed Polished Glutinous Rice with Water
+清水淘糯米锅Pot of Rinsed Polished Glutinous Rice with Water
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

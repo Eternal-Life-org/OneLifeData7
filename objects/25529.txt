@@ -1,5 +1,5 @@
 id=25529
-干燥的矢车菊幼苗Dry Corn Flower Seedling
+干玉米花苗Dry Corn Flower Seedling
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

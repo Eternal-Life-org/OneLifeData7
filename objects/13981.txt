@@ -1,5 +1,5 @@
 id=13981
-热铁锅和沙丁鱼Hot Cast Iron Pan with Sardine
+热铸铁锅沙丁鱼Hot Cast Iron Pan with Sardine
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

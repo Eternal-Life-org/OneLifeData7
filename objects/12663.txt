@@ -1,5 +1,5 @@
 id=12663
-一箱大蒜Full Crate of Garlic Bulbs
+整箱大蒜球茎Full Crate of Garlic Bulbs
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

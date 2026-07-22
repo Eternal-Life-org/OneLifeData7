@@ -1,5 +1,5 @@
 id=10385
-生根的虎尾兰剪枝Rooting Snake Plant Cutting
+生根蛇植物切割Rooting Snake Plant Cutting
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

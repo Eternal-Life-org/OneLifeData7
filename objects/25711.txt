@@ -1,5 +1,5 @@
 id=25711
-填过土的松软地与长春花种子Filled Hole with Soil and Catharanthus Roseus Seed
+用土壤和长春花种子填充孔洞Filled Hole with Soil and Catharanthus Roseus Seed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

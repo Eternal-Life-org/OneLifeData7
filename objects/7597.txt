@@ -1,5 +1,5 @@
 id=7597
-靛色羽毛高顶礼帽Indigo Top Hat with Feather
+靛蓝羽毛高顶礼帽Indigo Top Hat with Feather
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

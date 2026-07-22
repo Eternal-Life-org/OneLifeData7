@@ -1,5 +1,5 @@
 id=10298
-干英格兰常春藤扦插Dry Planted England Ivy
+干植英格兰常春藤Dry Planted England Ivy
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

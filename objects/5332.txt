@@ -1,5 +1,5 @@
 id=5332
-（已过时）木钳中的银矿石Silver Ore in Wooden Tongs #2HOL
+木钳中的银矿石Silver Ore in Wooden Tongs#2HOL
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

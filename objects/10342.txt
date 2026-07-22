@@ -1,5 +1,5 @@
 id=10342
-含苞待放的红银莲花Budding Red Windflower
+含苞待放的红风花Budding Red Windflower
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

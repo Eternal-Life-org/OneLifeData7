@@ -1,5 +1,5 @@
 id=34248
-生根绿萝Rooting Field Epipremnum Aureum Cutting
+生根田金表菌扦插Rooting Field Epipremnum Aureum Cutting
 containable=1
 containSize=1.000000,vertSlotRot=-0.500000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=11871
-虎尾兰Snake Plant #snake
+舌兰Snake Plant#snake
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

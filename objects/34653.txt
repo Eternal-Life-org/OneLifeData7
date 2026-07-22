@@ -1,5 +1,5 @@
 id=34653
-填过土的松软地与野生亚麻种子Filled Hole with Soil and Wild Flax Boll# 1
+用土壤和野生亚麻球填满洞Filled Hole with Soil and Wild Flax Boll# 1
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

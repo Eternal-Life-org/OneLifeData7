@@ -1,5 +1,5 @@
 id=34500
-铁砧上的热压蜜机底座Hot Sheet Basin on Anvil
+Anvil上的热板盆Hot Sheet Basin on Anvil
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

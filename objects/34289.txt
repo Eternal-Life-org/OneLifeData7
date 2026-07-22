@@ -1,5 +1,5 @@
 id=34289
-浇灌萌芽鸭掌木Plant Box with Wet Schefflera Sprouts
+带湿Schefflera芽的植物箱Plant Box with Wet Schefflera Sprouts
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

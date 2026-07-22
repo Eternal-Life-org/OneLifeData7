@@ -1,5 +1,5 @@
 id=10328
-柳兰剪枝Fire Weed Cutting
+火除草Fire Weed Cutting
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=25201
-象棋炮Chess Canon
+佳能国际象棋Chess Canon
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=25396
-棋盘投影Chessboard Projection # open #EW
+棋盘投影Chessboard Projection# open #EW
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3

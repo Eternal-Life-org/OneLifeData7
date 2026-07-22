@@ -1,5 +1,5 @@
 id=13763
-2级苔原煤矿矿井和煤炭Tundra Mine with Coal #2 #exploratory
+苔原煤矿Tundra Mine with Coal#2 #exploratory
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

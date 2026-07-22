@@ -1,5 +1,5 @@
 id=25218
-象棋相Chess Elephant # Red
+国际象棋大象Chess Elephant# Red
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

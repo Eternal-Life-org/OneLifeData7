@@ -1,5 +1,5 @@
 id=25409
-棋盘投影Chessboard Projection # hand
+棋盘投影Chessboard Projection# hand
 containable=1
 containSize=3.000000,vertSlotRot=-0.195000
 permanent=0,minPickupAge=3

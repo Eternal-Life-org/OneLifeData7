@@ -1,5 +1,5 @@
 id=11532
-热铁锅和泰式鸡肉炒饭Hot Cast Iron Pan with Cooked Chicken Stir Fry
+热铸铁锅炒熟鸡肉Hot Cast Iron Pan with Cooked Chicken Stir Fry
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

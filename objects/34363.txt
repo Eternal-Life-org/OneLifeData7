@@ -1,5 +1,5 @@
 id=34363
-浇灌萌芽鸭掌木Wet Wooden Flower Pot Schefflera Sprouts
+湿漉漉的木花花盆Schefflera豆芽Wet Wooden Flower Pot Schefflera Sprouts
 containable=1
 containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=5174
-横幅Banner# common
+横幅Banner#common
 containable=1
 containSize=1,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=34271
-绿萝盆栽Clay Flower Pot with Epipremnum Aureum
+金表菌泥花盆Clay Flower Pot with Epipremnum Aureum
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=14

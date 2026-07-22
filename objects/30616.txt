@@ -1,5 +1,5 @@
 id=30616
-熔炉中的骨瓷长板Closed Stone with Bone China LongPlant
+带骨瓷龙工厂的封闭式石材Closed Stone with Bone China LongPlant
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

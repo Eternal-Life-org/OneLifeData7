@@ -1,5 +1,5 @@
 id=5257
-一桶葡萄汁Bucket of Grape Juice #good
+一桶葡萄汁Bucket of Grape Juice#good
 containable=1
 containSize=2.000000,vertSlotRot=-0.195000
 permanent=0,minPickupAge=3

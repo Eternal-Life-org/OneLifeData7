@@ -1,5 +1,5 @@
 id=30666
-盐水罐中的北极红点鲑ArcticChar in Crock of Water
+水中的ArcticCharArcticChar in Crock of Water
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=25708
-一碗肉馅Bowl of Yunnan Hum
+云南Hum碗Bowl of Yunnan Hum
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

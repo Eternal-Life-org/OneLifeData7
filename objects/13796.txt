@@ -1,5 +1,5 @@
 id=13796
-3级苔原石灰石矿井和石灰石Tundra Limestone Mine with Limestone #3
+苔原石灰石矿，含石灰石Tundra Limestone Mine with Limestone#3
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

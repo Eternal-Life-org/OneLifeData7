@@ -1,5 +1,5 @@
 id=34277
-干燥的萌芽鸭掌木Bone Flower Pot with Dry Schefflera Sprouts
+带干沙夫雷拉芽的骨花盆Bone Flower Pot with Dry Schefflera Sprouts
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=14

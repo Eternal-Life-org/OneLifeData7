@@ -1,5 +1,5 @@
 id=31401
-砂纸
+砂纸# 刚制作
 containable=1
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

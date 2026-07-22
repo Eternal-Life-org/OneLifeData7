@@ -1,5 +1,5 @@
 id=14575
-狩猎三花猫Hunting Calico Cat #held
+狩猎印花布猫Hunting Calico Cat#held
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

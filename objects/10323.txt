@@ -1,5 +1,5 @@
 id=10323
-湿蓝菊花扦插Wet Planted Blue Chrysanthemum
+湿植蓝菊花Wet Planted Blue Chrysanthemum
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

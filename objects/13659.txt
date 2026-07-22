@@ -1,5 +1,5 @@
 id=13659
-干海藻Dried Seaweed
+干海带Dried Seaweed
 containable=1
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

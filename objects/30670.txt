@@ -1,5 +1,5 @@
 id=30670
-盐水罐中的梭子鱼Pike in Crock of Water
+水中的派克Pike in Crock of Water
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

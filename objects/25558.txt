@@ -1,5 +1,5 @@
 id=25558
-盆栽里的牵牛花Blooming Morning Glory
+盛开的牵牛花Blooming Morning Glory
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

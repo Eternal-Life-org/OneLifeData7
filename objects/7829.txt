@@ -1,5 +1,5 @@
 id=7829
-鱼骨Fish Leftovers #pike
+鱼骨Fish Leftovers#pike
 containable=1
 containSize=1.000000,vertSlotRot=-0.500000
 permanent=0,minPickupAge=3

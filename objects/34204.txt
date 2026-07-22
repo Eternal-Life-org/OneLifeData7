@@ -1,5 +1,5 @@
 id=34204
-灌木丛和野蒜Thicket with Dug WildGarlic
+蒜泥浓汤Thicket with Dug WildGarlic
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

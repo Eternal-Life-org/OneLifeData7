@@ -1,5 +1,5 @@
 id=13799
-3级苔原锡矿矿井和锡矿Tundra Malachite and Cassiterite Mine with Cassiterite #3
+苔原孔雀石和锡石矿，含锡石Tundra Malachite and Cassiterite Mine with Cassiterite#3
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

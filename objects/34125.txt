@@ -1,5 +1,5 @@
 id=34125
-授粉的香橼树Pollinated Citron Tree# Bee
+授粉的柠檬树Pollinated Citron Tree# Bee
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=12683
-三箱甜菜Crates of Beets #3 #Empty
+成箱的甜菜Crates of Beets#3 #Empty
 containable=1
 containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

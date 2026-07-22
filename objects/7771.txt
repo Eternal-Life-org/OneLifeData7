@@ -1,5 +1,5 @@
 id=7771
-干草捆Hay Bale #2
+干草捆Hay Bale#2
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

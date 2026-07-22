@@ -1,5 +1,5 @@
 id=10363
-湿蒲公英扦插Wet Planted Dandelion
+湿植蒲公英Wet Planted Dandelion
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

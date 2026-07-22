@@ -1,5 +1,5 @@
 id=34240
-灌木丛和土壤Thicket with Fertile Soil
+厚厚的肥沃土壤Thicket with Fertile Soil
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

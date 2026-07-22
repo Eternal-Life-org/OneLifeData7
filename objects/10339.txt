@@ -1,5 +1,5 @@
 id=10339
-湿红银莲花扦插Wet Planted Red Windflower
+湿植红白头翁Wet Planted Red Windflower
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

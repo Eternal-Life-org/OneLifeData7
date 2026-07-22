@@ -1,5 +1,5 @@
 id=14563
-喂过的剪毛家养绵羊Fed Shorn Domestic Sheep
+美联储剪毛家羊Fed Shorn Domestic Sheep
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

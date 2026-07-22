@@ -1,5 +1,5 @@
 id=10313
-生根的龟背竹剪枝Rooting Monstera Cutting
+龟背竹生根切割Rooting Monstera Cutting
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

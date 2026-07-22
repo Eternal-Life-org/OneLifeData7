@@ -1,5 +1,5 @@
 id=7429
-钢楔刀在原木里Froe Wedged In Log #light
+钢楔刀在原木里Froe Wedged In Log#light
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

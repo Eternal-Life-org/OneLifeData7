@@ -1,5 +1,5 @@
 id=4798
-幸运足国之剑Sword of Lucky Foot #scabbard
+幸运足国之剑Sword of Lucky Foot#scabbard
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=18

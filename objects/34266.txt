@@ -1,5 +1,5 @@
 id=34266
-干燥的萌芽鸭掌木Clay Flower Pot with Dry Schefflera Sprouts
+白三叶干芽泥花盆Clay Flower Pot with Dry Schefflera Sprouts
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=14

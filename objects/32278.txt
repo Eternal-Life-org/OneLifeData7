@@ -1,5 +1,5 @@
 id=32278
-被封锁的2级苔原矿井Mine# 1 Close
+矿脉Mine# 1 Close
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

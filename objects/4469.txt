@@ -1,5 +1,5 @@
 id=4469
-三卷丝绸Bolts of Silk Cloth #3
+丝布卷Bolts of Silk Cloth#3
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

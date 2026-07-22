@@ -1,5 +1,5 @@
 id=13915
-运行中的4级苔原原生铜矿井Running Tundra Copper Mine #4
+运行苔原铜矿Running Tundra Copper Mine#4
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=30172
-朱砂木桶Wooden Barrel of Cinnabars
+朱砂木桶朱砂木桶Wooden Barrel of Cinnabars
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=14

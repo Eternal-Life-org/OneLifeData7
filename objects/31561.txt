@@ -1,5 +1,5 @@
 id=31561
-有巨石卡住的风化矿床
+有巨石卡住的风化矿床# 1级 有寒风 1
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

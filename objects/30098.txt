@@ -1,5 +1,5 @@
 id=30098
-化学反应Chemical Reaction# CA(OH)2+NA2CO3
+化学反应化学反应Chemical Reaction# CA(OH)2+NA2CO3
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=25577
-浇水发芽的虎尾兰Watered Maturing Snake Plant
+浇灌成熟蛇类植物Watered Maturing Snake Plant
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=7549
-一箱卷心菜Full Crate of Cabbages
+满满一箱卷心菜Full Crate of Cabbages
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

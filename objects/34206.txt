@@ -1,5 +1,5 @@
 id=34206
-灌木丛和野蒜甜菜Thicket with Dug WildBeet
+厚与Dug WildBeetThicket with Dug WildBeet
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

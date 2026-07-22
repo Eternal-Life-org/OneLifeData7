@@ -1,5 +1,5 @@
 id=32228
-朔雪上衣Snow in the North
+朔雪 Snow in the North
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

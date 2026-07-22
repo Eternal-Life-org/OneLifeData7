@@ -1,5 +1,5 @@
 id=13970
-热铁锅和烤熟的鹅肉Hot Cast Iron Pan with Cooked Goose
+热铸铁锅煮鹅Hot Cast Iron Pan with Cooked Goose
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

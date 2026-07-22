@@ -1,5 +1,5 @@
 id=25351
-3D象棋投影仪3D Chess Projector # WE
+3D象棋投影仪3D Chess Projector# WE
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3

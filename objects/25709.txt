@@ -1,5 +1,5 @@
 id=25709
-生肉馅月饼Plate of Raw Yunnan Hum Mooncake
+云南生Hum月饼盘Plate of Raw Yunnan Hum Mooncake
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

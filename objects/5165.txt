@@ -1,5 +1,5 @@
 id=5165
-圣殿骑士剑Templar Sword #scabbard
+圣殿骑士剑Templar Sword#scabbard
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=18

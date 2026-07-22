@@ -1,5 +1,5 @@
 id=7186
-带灰烬的石壁炉Stone Fireplace with Ashes #eveHomeMarker
+带灰烬的石壁炉Stone Fireplace with Ashes#eveHomeMarker
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

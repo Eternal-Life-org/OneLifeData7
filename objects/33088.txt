@@ -1,5 +1,5 @@
 id=33088
-熔炉中上釉水的骨瓷花盆Stone Furnace with Glazed Firing Bone China Pot
+石炉配釉烧骨质瓷锅Stone Furnace with Glazed Firing Bone China Pot
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

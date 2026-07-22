@@ -1,5 +1,5 @@
 id=34898
-两箱未满的褐铁矿Limonite with Mine Boes# 2
+褐铁矿和矿石Limonite with Mine Boes# 2
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=14

@@ -1,5 +1,5 @@
 id=30750
-北极红点鲑与海藻Deep Water with ArcticChar# +noHighlight groundOnly breed
+ArcticChar深水Deep Water with ArcticChar# +noHighlight groundOnly breed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

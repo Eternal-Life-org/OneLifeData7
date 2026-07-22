@@ -1,5 +1,5 @@
 id=13812
-2级锡矿矿井和锡矿Mine with Cassiterite #2 #exploratory
+锡石矿洞Mine with Cassiterite#2 #exploratory
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

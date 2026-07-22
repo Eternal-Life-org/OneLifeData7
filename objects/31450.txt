@@ -1,5 +1,5 @@
 id=31450
-细弹簧
+细弹簧# 未淬火
 containable=1
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

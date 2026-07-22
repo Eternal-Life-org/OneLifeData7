@@ -1,5 +1,5 @@
 id=14771
-莲花剪枝Lotus Cutting
+荷花切割Lotus Cutting
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

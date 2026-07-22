@@ -1,5 +1,5 @@
 id=5313
-死的公猛犸象Dead Bull Mammoth #just killed
+死的公猛犸象Dead Bull Mammoth#just killed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=10343
-带矢车菊剪枝的剪刀Shears with Corn Flower Cutting
+玉米花剪Shears with Corn Flower Cutting
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=32604
-一杯乙醇与石膏Beaker of Ethanol and Quicklime# Chemical Reaction
+一杯乙醇与生石灰Beaker of Ethanol and Quicklime# Chemical Reaction
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

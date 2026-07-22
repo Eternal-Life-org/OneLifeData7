@@ -1,5 +1,5 @@
 id=25524
-深水莲花种植Rooting Lotus Cutting in Deep Water
+深水荷花扦插生根Rooting Lotus Cutting in Deep Water
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

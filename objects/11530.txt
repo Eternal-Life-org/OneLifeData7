@@ -1,5 +1,5 @@
 id=11530
-热铁锅和鸡肉和米饭Hot Cast Iron Pan with Chicken and Rice
+热铸铁锅鸡肉米饭Hot Cast Iron Pan with Chicken and Rice
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

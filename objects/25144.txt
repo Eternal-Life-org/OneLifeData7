@@ -1,5 +1,5 @@
 id=25144
-工作台上的原木Butt Log on Wood Work Bench
+木工工作台上的对接原木Butt Log on Wood Work Bench
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

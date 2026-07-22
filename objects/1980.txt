@@ -1,5 +1,5 @@
 id=1980
-骰子Dice Roll of Seven# 2 5
+掷出7Dice Roll of Seven# 2 5
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=1,minPickupAge=3

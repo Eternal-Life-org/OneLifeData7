@@ -1,5 +1,5 @@
 id=25578
-盆栽里的虎尾兰Potted Snake Plant
+盆栽蛇类植物Potted Snake Plant
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

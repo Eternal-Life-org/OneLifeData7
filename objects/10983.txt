@@ -1,5 +1,5 @@
 id=10983
-白猫White Cat #black standing
+白猫White Cat#black standing
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

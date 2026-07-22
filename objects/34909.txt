@@ -1,5 +1,5 @@
 id=34909
-一箱蓝蛋白石矿Blue Opal Mine with Mine Boes# 2 Empty
+蓝色蛋白石矿Blue Opal Mine with Mine Boes# 2 Empty
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=14

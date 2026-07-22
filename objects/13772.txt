@@ -1,5 +1,5 @@
 id=13772
-2级苔原钻石矿井和钻石Tundra Mine with Diamond #2 #exploratory
+苔原矿钻石Tundra Mine with Diamond#2 #exploratory
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

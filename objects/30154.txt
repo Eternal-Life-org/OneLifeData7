@@ -1,5 +1,5 @@
 id=30154
-混凝土地板，带桩绿松石Concrete Floor with pile Turquoise
+混凝土地板，带桩绿松石混凝土地板，带桩绿松石Concrete Floor with pile Turquoise
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

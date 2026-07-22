@@ -1,5 +1,5 @@
 id=8169
-带引火柴和火种的花环石壁炉Garland Stone Fireplace with Kindling Tinder #eveHomeMarker
+带引火柴和火种的花环石壁炉Garland Stone Fireplace with Kindling Tinder#eveHomeMarker
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

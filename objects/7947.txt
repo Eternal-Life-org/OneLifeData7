@@ -1,5 +1,5 @@
 id=7947
-大堆木板Big Stack of Boards #light
+大堆木板Big Stack of Boards#light
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

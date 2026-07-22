@@ -1,5 +1,5 @@
 id=10575
-热铁锅和调味红点鲑Hot Cast Iron Pan with Seasoned Char Fillet
+热铸铁锅配调味红点鲑鱼片Hot Cast Iron Pan with Seasoned Char Fillet
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

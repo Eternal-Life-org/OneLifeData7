@@ -1,5 +1,5 @@
 id=30088
-被木钳夹着的一碗碳酸钙Bowl of CACO3 in Wooden Tongs
+木钳与一碗碳酸钙木钳与一碗碳酸钙Bowl of CACO3 in Wooden Tongs
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

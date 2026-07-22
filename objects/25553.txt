@@ -1,5 +1,5 @@
 id=25553
-盆栽里的粉红飞燕Blooming Pink Delphinium
+盛开的粉红色翠雀花Blooming Pink Delphinium
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=10390
-成熟的虎尾兰Maturing Snake Plant
+成熟的蛇植物Maturing Snake Plant
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

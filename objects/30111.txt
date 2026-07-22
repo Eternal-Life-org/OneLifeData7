@@ -1,5 +1,5 @@
 id=30111
-钢管和三根钢条桩Pile of Steel Pipes and Three Steel Rods
+钢管和三根钢条桩钢管和三根钢条桩Pile of Steel Pipes and Three Steel Rods
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=1,minPickupAge=3

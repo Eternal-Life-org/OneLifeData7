@@ -1,5 +1,5 @@
 id=3940
-被木钳夹着的废铁Tongs with Scrap Iron
+带废铁的钳子Tongs with Scrap Iron
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

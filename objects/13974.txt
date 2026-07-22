@@ -1,5 +1,5 @@
 id=13974
-热铁锅和烤熟的鸡肉Hot Cast Iron Pan with Cooked Chicken
+热铸铁锅煮鸡肉Hot Cast Iron Pan with Cooked Chicken
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

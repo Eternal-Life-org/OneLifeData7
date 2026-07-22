@@ -1,5 +1,5 @@
 id=13870
-3级沙漠铝土矿矿井和明矾Desert Mineral Mine with Alum #3
+沙漠矿井与明矾Desert Mineral Mine with Alum#3
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

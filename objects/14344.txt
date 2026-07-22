@@ -1,5 +1,5 @@
 id=14344
-打开密码上锁的木门Open Password Locked Wooden Door# +password-protectable
+打开密码上锁的木门rOpen Password Locked Wooden Door# +password-protectable
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

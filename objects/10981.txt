@@ -1,5 +1,5 @@
 id=10981
-白猫White Cat #dying
+白猫White Cat#dying
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

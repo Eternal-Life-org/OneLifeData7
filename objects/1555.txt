@@ -1,5 +1,5 @@
 id=1555
-轨道终点Track End #W #cartE
+轨道终点Track End#W #cartE
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

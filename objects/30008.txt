@@ -1,5 +1,5 @@
 id=30008
-带朱砂的马赛克地板Mosaic Floor with pile Cinnabar 1
+朱砂堆马赛克地板朱砂堆马赛克地板1Mosaic Floor with pile Cinnabar 1
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

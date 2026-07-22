@@ -1,5 +1,5 @@
 id=13917
-运行中的4级苔原锡矿矿井Running Tundra Malachite and Cassiterite Mine #4
+运行苔原孔雀石和锡石矿Running Tundra Malachite and Cassiterite Mine#4
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

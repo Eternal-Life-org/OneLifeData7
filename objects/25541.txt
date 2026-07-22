@@ -1,5 +1,5 @@
 id=25541
-干燥的萌芽粉红牡丹Dry Budding Peony
+干牡丹Dry Budding Peony
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=11045
-两箱未满野生胡萝Crates of Wild Carrots #2 #Empty
+成箱的野胡萝卜Crates of Wild Carrots#2 #Empty
 containable=1
 containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=14115
-一锅洋葱汤和黄油Pot with Onions and Butter
+锅里加洋葱和黄油Pot with Onions and Butter
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

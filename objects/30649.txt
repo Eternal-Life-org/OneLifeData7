@@ -1,5 +1,5 @@
 id=30649
-一堆骨瓷长板China LongPlate Stack# Gold
+中国长板堆China LongPlate Stack# Gold
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

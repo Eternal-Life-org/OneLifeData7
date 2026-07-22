@@ -1,5 +1,5 @@
 id=12692
-两箱蘑菇Full Crates of Mushrooms #2
+满箱蘑菇Full Crates of Mushrooms#2
 containable=1
 containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

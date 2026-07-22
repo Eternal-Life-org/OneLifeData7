@@ -1,5 +1,5 @@
 id=34505
-钢条Thin Steel Pipe
+薄钢管Thin Steel Pipe
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=12080
-一袋甘蔗渣Sack of Bagasse #2
+一袋甘蔗渣Sack of Bagasse#2
 containable=1
 containSize=2.000000,vertSlotRot=-0.245000
 permanent=0,minPickupAge=3

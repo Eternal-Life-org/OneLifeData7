@@ -1,5 +1,5 @@
 id=25178
-工作台上的深色车Dark Rook on Wood Work Bench
+木工台上的黑暗房间Dark Rook on Wood Work Bench
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

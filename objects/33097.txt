@@ -1,5 +1,5 @@
 id=33097
-熔炉中上釉水的骨瓷长板Firing Stone Furnace with Glazed Firing Bone China LongPlant
+烧石炉配LongPlant釉面骨质瓷Firing Stone Furnace with Glazed Firing Bone China LongPlant
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

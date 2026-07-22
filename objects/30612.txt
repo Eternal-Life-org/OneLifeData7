@@ -1,5 +1,5 @@
 id=30612
-熔炉中的湿骨瓷长板Firing Stone Furnace with Bone China LongPlant
+骨瓷龙厂烧石炉Firing Stone Furnace with Bone China LongPlant
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

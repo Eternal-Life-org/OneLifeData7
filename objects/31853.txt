@@ -1,5 +1,5 @@
 id=31853
-化学实验台
+化学实验台# 制取发烟硫酸
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

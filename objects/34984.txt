@@ -1,5 +1,5 @@
 id=34984
-土耳其鸡肉卷Stack of Doner Kebab# 6
+一堆烤面包Stack of Doner Kebab# 6
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=12439
-铜喷头Copper Sprinkler #EW gone spraying
+铜喷头Copper Sprinkler#EW gone spraying
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

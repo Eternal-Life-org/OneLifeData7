@@ -1,5 +1,5 @@
 id=25221
-象棋士Chess Mandarin
+国际象棋普通话Chess Mandarin
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
