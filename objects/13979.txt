@@ -1,5 +1,5 @@
 id=13979
-一盘熟虾Plate of Cooked Shrimp
+一盘熟虾Plate of Cooked Shrimp# +yum2823
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -16,7 +16,7 @@ deathMarker=0
 homeMarker=0
 floor=0
 floorHugging=0
-foodValue=0
+foodValue=4,4
 speedMult=1.000000
 heldOffset=14.000000,15.000000
 clothing=n
@@ -79,7 +79,7 @@ headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
 frontFootIndex=-1
-numUses=1,1.000000
-useVanishIndex=-1
+numUses=4,1.000000
+useVanishIndex=1,2,3,4
 useAppearIndex=-1
 pixHeight=0

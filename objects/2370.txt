@@ -2,7 +2,7 @@ id=2370
 发动机燃油系统Engine Fuel System
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
-permanent=0,minPickupAge=15
+permanent=0,minPickupAge=14
 noFlip=1
 sideAccess=0
 heldInHand=0
@@ -38,6 +38,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=2199
 pos=-2.000000,-13.000000
 rot=0.000000
@@ -46,6 +47,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1

@@ -2,7 +2,7 @@ id=13884
 部分柴油采矿套件Partial Diesel Mining Kit
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
-permanent=0,minPickupAge=15
+permanent=0,minPickupAge=14
 noFlip=1
 sideAccess=0
 heldInHand=0

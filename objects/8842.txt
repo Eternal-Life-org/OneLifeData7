@@ -1,5 +1,5 @@
 id=8842
-一盘切碎的甜菜和种子Plate of Chopped Beet with Seeds
+一盘切碎的甜菜和种子Plate of Chopped Beet with Seeds# +yum8841
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -16,7 +16,7 @@ deathMarker=0
 homeMarker=0
 floor=0
 floorHugging=0
-foodValue=0
+foodValue=4
 speedMult=1.000000
 heldOffset=14.000000,15.000000
 clothing=n

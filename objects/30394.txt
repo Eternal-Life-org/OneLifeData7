@@ -1,5 +1,5 @@
 id=30394
-一杯橙汁Mug of Orange Juice# No sugar +yum14503
+一杯无糖橙汁Mug of Orange Juice# No sugar +yum14503
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -16,7 +16,7 @@ deathMarker=0
 homeMarker=0
 floor=0
 floorHugging=0
-foodValue=0
+foodValue=2,6
 speedMult=1.000000
 containOffset=0,-7
 heldOffset=11.000000,22.000000

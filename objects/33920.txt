@@ -1,5 +1,5 @@
 id=33920
-一盘熟香肠Plate of Cooked Sausages# Use6
+一盘熟香肠Plate of Cooked Sausages# Use6 +yum6502
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -16,7 +16,7 @@ deathMarker=0
 homeMarker=0
 floor=0
 floorHugging=0
-foodValue=0
+foodValue=4,2
 speedMult=1.000000
 heldOffset=14.000000,15.000000
 clothing=n
