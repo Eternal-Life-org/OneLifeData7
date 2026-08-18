@@ -1,5 +1,5 @@
 id=27792
-Perhaps a Planted Big Lily Seed BallPerhaps a Planted Big Lily Seed Ball# Orange
+Perhaps a Planted Big Lily Seed Ball# Orange
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

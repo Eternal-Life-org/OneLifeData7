@@ -1,32 +1,37 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-translate_objects.py - 用 翻译表.xlsx 覆盖 objects/*.txt 的名称行(第2行)
+translate.py - 用 翻译表.xlsx 覆盖 objects/*.txt 的名称行(第2行)
 
 用法:
     cd OneLifeData7
-    python translate_objects.py              # 交互式选择模式
-    python translate_objects.py --mode 1     # 1=翻译英文 2=翻译中文 3=追加英文(中文+英文)
-    python translate_objects.py --dry-run     # 只扫描不覆盖(测试用)
-    python translate_objects.py --ignore-errors  # 输出异常但仍执行覆盖(用xlsx修复object)
+    python translate.py              # 交互式选择模式
+    python translate.py --mode 1     # 1=翻译英文 2=翻译中文 3=追加英文(中文+英文)
+    python translate.py --dry-run    # 只扫描不覆盖(测试用, 附带改动统计)
+    python translate.py --ignore-errors  # 输出异常但仍执行覆盖
 
-xlsx 结构 (Elife sheet):
-    A=key(物品id)  B=English  C=Chinese  D=Label(词条, 自带 # 前缀)
+xlsx 结构 (Elife sheet, 按表头识别列):
+    A=key(物品id)  B=English  C=简体中文（实装）  D=后缀（实装）
+    E=简体中文（录入区）  F=后缀（录入区）  —— 录入区仅供调整, 本脚本不读取
+    G=修改状态(公式, 只比名字)  H=备注
+
+只有"实装"两列会被录入:
+    C = 中文名(不含后缀)    D = 后缀(以#开头, 可为空)
 
 三种模式构建的第2行:
-    1 翻译英文:  English + Label
-    2 翻译中文:  Chinese + Label
-    3 追加英文:  Chinese + English + Label   (中英之间无空格)
+    1 翻译英文:  English + 后缀
+    2 翻译中文:  Chinese + 后缀
+    3 追加英文:  Chinese + English + 后缀   (名字与后缀拼接均无额外空格)
 
-名称与 Label 拼接时中间无空格(Label 自带 #, 直接拼接)。
-
-扫描规则(覆盖前):
-    - object 文件不存在                       -> warning (跳过, 不阻止覆盖)
-    - xlsx 缺少该模式的翻译列                 -> warning (跳过该行不覆盖)
-    - object 第2行为空                       -> 异常
-    - xlsx Label 与 object 第2行现有 # 词条不一致 -> 异常
+扫描规则(覆盖前) —— 只检查名字, 不检查后缀:
+    - object 文件不存在       -> warning (跳过, 不阻止覆盖)
+    - xlsx 缺少该模式的翻译列 -> warning (跳过该行不覆盖)
+    - object 第2行为空        -> 异常
+    - xlsx 中英文均为空       -> 异常
     有异常时默认退出不覆盖; 加 --ignore-errors 则输出异常后继续覆盖
-    (用 xlsx 数据覆盖 object, 可修复 label 不一致/空行)。
+    (用 xlsx 数据覆盖 object, 可修复空行)。
+
+兼容旧格式表(表头 key/English/Chinese/Label 或无表头的 B/C/D 固定列)。
 """
 
 import sys
@@ -46,6 +51,15 @@ DEFAULT_OBJ_DIR = 'objects'
 
 
 # ---------- xlsx 读取 (不依赖 openpyxl, 直接解析 XML) ----------
+
+def _load_shared(z):
+    """sharedStrings 可选: openpyxl 等工具保存的表用内联字符串, 没有该文件"""
+    if 'xl/sharedStrings.xml' not in z.namelist():
+        return []
+    ss_tree = ET.fromstring(z.read('xl/sharedStrings.xml'))
+    return [''.join(t.text or '' for t in si.iter(f'{NS}t'))
+            for si in ss_tree.findall(f'{NS}si')]
+
 
 def _find_elife_sheet_path(z):
     """在 xlsx 里找 Elife sheet 对应的 worksheet xml 路径"""
@@ -69,7 +83,7 @@ def _find_elife_sheet_path(z):
 
 
 def _cell_value(c, shared):
-    """取一个 <c> 单元格的值"""
+    """取一个 <c> 单元格的值(支持共享字符串/内联字符串/数字)"""
     t = c.get('t')
     v = c.find(f'{NS}v')
     isn = c.find(f'{NS}is')
@@ -82,6 +96,65 @@ def _cell_value(c, shared):
     return ''
 
 
+def _map_columns(header_cells):
+    """按表头行识别列; 返回 (key, english, chinese, label) 列字母, 识别失败返回 None"""
+    def find(pred):
+        for col, v in header_cells.items():
+            if pred(v.strip()):
+                return col
+        return None
+
+    eng = find(lambda v: v.lower() == 'english')
+    chn = find(lambda v: ('实装' in v and '中文' in v) or v.lower() == 'chinese')
+    lab = find(lambda v: ('实装' in v and '后缀' in v) or v.lower() == 'label')
+    key = find(lambda v: v.lower() == 'key')
+    if eng and chn:
+        return (key or 'A', eng, chn, lab)
+    return None
+
+
+def read_xlsx(xlsx_path):
+    """读取 Elife sheet, 返回 dict[key] = {english, chinese, label}
+    列按表头识别(实装列); 无表头或表头不认识时回退旧格式固定列 A/B/C/D"""
+    z = zipfile.ZipFile(xlsx_path)
+    shared = _load_shared(z)
+
+    sheet_path = _find_elife_sheet_path(z)
+    if sheet_path is None:
+        raise RuntimeError(f"xlsx 里找不到名为 '{SHEET_NAME}' 的 sheet")
+
+    sh_tree = ET.fromstring(z.read(sheet_path))
+    xml_rows = sh_tree.findall(f'{NS}sheetData/{NS}row')
+
+    translations = {}
+    cols = None
+    for row in xml_rows:
+        cells = {}
+        for c in row.findall(f'{NS}c'):
+            ref = c.get('r')
+            col = re.match(r'([A-Z]+)', ref).group(1)
+            cells[col] = _cell_value(c, shared)
+
+        if cols is None:
+            # 首行: 是表头则识别列, 是数据(key为纯数字)则按旧格式固定列
+            if re.match(r'^\d+$', (cells.get('A') or '').strip()):
+                cols = ('A', 'B', 'C', 'D')
+            else:
+                cols = _map_columns(cells) or ('A', 'B', 'C', 'D')
+                continue
+
+        key = clean_cell(cells.get(cols[0], ''))
+        # 只接受正整数 key (object id)
+        if not re.match(r'^\d+$', key):
+            continue
+        translations[key] = {
+            'english': clean_cell(cells.get(cols[1], '')),
+            'chinese': clean_cell(cells.get(cols[2], '')),
+            'label':   clean_cell(cells.get(cols[3], '')) if cols[3] else '',
+        }
+    return translations
+
+
 def clean_cell(s):
     """单元格清洗: 去内部回车换行, 去前后空白"""
     if s is None:
@@ -91,45 +164,10 @@ def clean_cell(s):
     return s.strip()
 
 
-def read_xlsx(xlsx_path):
-    """读取 Elife sheet, 返回 dict[key] = {english, chinese, label}"""
-    z = zipfile.ZipFile(xlsx_path)
-    # sharedStrings
-    ss_tree = ET.fromstring(z.read('xl/sharedStrings.xml'))
-    shared = []
-    for si in ss_tree.findall(f'{NS}si'):
-        shared.append(''.join(t.text or '' for t in si.iter(f'{NS}t')))
-
-    sheet_path = _find_elife_sheet_path(z)
-    if sheet_path is None:
-        raise RuntimeError(f"xlsx 里找不到名为 '{SHEET_NAME}' 的 sheet")
-
-    sh_tree = ET.fromstring(z.read(sheet_path))
-    rows = sh_tree.findall(f'{NS}sheetData/{NS}row')
-
-    translations = {}
-    for row in rows:
-        cells = {}
-        for c in row.findall(f'{NS}c'):
-            ref = c.get('r')
-            col = re.match(r'([A-Z]+)', ref).group(1)
-            cells[col] = _cell_value(c, shared)
-        key = clean_cell(cells.get('A', ''))
-        # 只接受正整数 key (object id)
-        if not re.match(r'^\d+$', key):
-            continue
-        translations[key] = {
-            'english': clean_cell(cells.get('B', '')),
-            'chinese': clean_cell(cells.get('C', '')),
-            'label':   clean_cell(cells.get('D', '')),
-        }
-    return translations
-
-
 # ---------- object 文件读写 ----------
 
 def read_obj_line2(obj_path):
-    """读 object 第2行(已去 \r\n); 文件不存在或不足2行返回 None"""
+    """读 object 第2行(已去 \\r\\n); 文件不存在或不足2行返回 None"""
     try:
         with open(obj_path, encoding='utf-8') as f:
             content = f.read()
@@ -189,7 +227,7 @@ def has_name(mode, t):
 
 
 def build_name(mode, t):
-    """构建名称部分(不含 label)"""
+    """构建名称部分(不含后缀)"""
     if mode == 1:
         return t['english']
     if mode == 2:
@@ -206,22 +244,14 @@ def build_name(mode, t):
 
 
 def build_line2(mode, t):
-    """构建完整第2行: 名称 + label (label 自带 #, 无空格)"""
+    """构建完整第2行: 名字 + 后缀 (后缀自带 #, 无空格)"""
     return build_name(mode, t) + t['label']
-
-
-def extract_label(desc):
-    """从描述行提取 # 后词条(含 #, 已 strip); 无 # 返回 ''"""
-    idx = desc.find('#')
-    if idx == -1:
-        return ''
-    return desc[idx:].strip()
 
 
 # ---------- 扫描 ----------
 
 def scan(translations, mode, obj_dir):
-    """扫描所有 key, 返回 (errors, warnings)"""
+    """扫描所有 key, 返回 (errors, warnings) —— 只检查名字, 不检查后缀"""
     errors = []
     warnings = []
     needed = mode_needs(mode)
@@ -250,13 +280,6 @@ def scan(translations, mode, obj_dir):
         if missing:
             warnings.append(
                 f"key {key}: xlsx 缺少 {','.join(missing)} 翻译")
-
-        # 3. label 不一致 -> 异常
-        obj_label = extract_label(line2)
-        xlsx_label = t['label']
-        if obj_label != xlsx_label:
-            errors.append(
-                f"key {key}: label 不一致  object={obj_label!r}  xlsx={xlsx_label!r}")
 
     return errors, warnings
 
@@ -288,9 +311,9 @@ def translate(translations, mode, obj_dir):
 
 def ask_mode():
     print("请选择翻译模式:")
-    print("  1: 翻译英文   (第2行 = English + Label)")
-    print("  2: 翻译中文   (第2行 = Chinese + Label)")
-    print("  3: 追加英文   (第2行 = Chinese + English + Label)")
+    print("  1: 翻译英文   (第2行 = English + 后缀)")
+    print("  2: 翻译中文   (第2行 = Chinese + 后缀)")
+    print("  3: 追加英文   (第2行 = Chinese + English + 后缀)")
     while True:
         try:
             m = int(input("请输入 1/2/3: ").strip())
@@ -351,7 +374,7 @@ def main():
             print(f"  [ERROR] {e}")
         if ignore_errors:
             print(f"\n--ignore-errors: 忽略 {len(errors)} 处异常, 继续覆盖 "
-                  f"(将用 xlsx 数据覆盖 object, 可修复 label 不一致/空行)。")
+                  f"(将用 xlsx 数据覆盖 object, 可修复空行)。")
         else:
             print(f"\n扫描发现 {len(errors)} 处异常, 终止覆盖。"
                   f"请先修复, 或加 --ignore-errors 忽略异常继续覆盖。")
@@ -360,6 +383,24 @@ def main():
     print(f"\n扫描通过: {len(translations)} 条, warning {len(warnings)} 条, "
           f"异常 {len(errors)} 条"
           f"{' (已忽略)' if ignore_errors else ''}。")
+
+    # 预览: 实际会改动多少 object (只统计, 不写入)
+    changed = []
+    for key in sorted(translations.keys(), key=lambda x: int(x)):
+        t = translations[key]
+        if not has_name(mode, t):
+            continue
+        line2 = read_obj_line2(os.path.join(obj_dir, f'{key}.txt'))
+        if line2 is None or line2 == '':
+            continue
+        if line2 != build_line2(mode, t):
+            changed.append(key)
+    print(f"\n预览: 覆盖后将改动 {len(changed)} 个 object 的第2行"
+          f"{' (--dry-run, 未写入)' if dry_run else ''}")
+    for key in changed[:10]:
+        t = translations[key]
+        line2 = read_obj_line2(os.path.join(obj_dir, f'{key}.txt'))
+        print(f"  {key}: {line2!r} -> {build_line2(mode, t)!r}")
 
     if dry_run:
         print("--dry-run 模式, 不执行覆盖。")

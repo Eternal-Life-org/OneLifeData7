@@ -1,5 +1,5 @@
 id=35134
-化学实验台和氢氧化钠
+化学实验台和氢氧化钠Chemical Experiment Platform
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

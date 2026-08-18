@@ -1,5 +1,5 @@
 id=31646
-Painted Picket Fence# Orange
+彩绘栅栏Painted Picket Fence# Orange
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=31134
-Painted Picket Fence# Yellow
+彩绘栅栏Painted Picket Fence# Yellow
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

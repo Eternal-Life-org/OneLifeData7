@@ -1,5 +1,5 @@
 id=25196
-国际象棋典当Chess Pawn
+象棋兵Chess Pawn
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

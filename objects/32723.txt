@@ -1,5 +1,5 @@
 id=32723
-Rocky Hill# Nitroglycerin Dynamite Lit
+落基山Rocky Hill# Nitroglycerin Dynamite Lit
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

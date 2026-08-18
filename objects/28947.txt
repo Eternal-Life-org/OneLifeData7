@@ -1,5 +1,5 @@
 id=28947
-Beagle#tired
+比格犬Beagle#tired
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

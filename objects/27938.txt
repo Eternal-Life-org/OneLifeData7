@@ -1,5 +1,5 @@
 id=27938
-Perhaps a Tulip Seed BallPerhaps a Tulip Seed Ball# Red
+Perhaps a Tulip Seed Ball# Red
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

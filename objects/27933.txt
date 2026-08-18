@@ -1,5 +1,5 @@
 id=27933
-Perhaps a Planted Tulip SpoutPerhaps a Planted Tulip Spout# Red
+Perhaps a Planted Tulip Spout# Red
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

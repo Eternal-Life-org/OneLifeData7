@@ -1,5 +1,5 @@
 id=31663
-Orange Plaster Wall with Big Stack of Boards#just placed
+带大堆木板的橙色石膏墙Orange Plaster Wall with Big Stack of Boards#just placed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

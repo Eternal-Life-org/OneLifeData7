@@ -1,5 +1,5 @@
 id=31125
-Painted Picket Fence Gate# White justpainted
+彩绘栅栏门Painted Picket Fence Gate# White justpainted
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

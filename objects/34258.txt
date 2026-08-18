@@ -1,5 +1,5 @@
 id=34258
-绿豆芽Wet Epipremnum Areum Sprouts
+浇灌萌芽绿萝Wet Epipremnum Areum Sprouts
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

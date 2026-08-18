@@ -1,5 +1,5 @@
 id=25500
-柳树砍伐Willow Tree Cutting
+柳树剪枝Willow Tree Cutting
 containable=1
 containSize=1.000000,vertSlotRot=-0.500000
 permanent=0,minPickupAge=3

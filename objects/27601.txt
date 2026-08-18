@@ -1,5 +1,5 @@
 id=27601
-Perhaps a Peony Plant SeedPerhaps a Peony Plant Seed
+Perhaps a Peony Plant Seed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
