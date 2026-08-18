@@ -1,5 +1,5 @@
 id=33891
-授粉的柚子树Pollinated Pomelo Tree# Sweet Orange Paternal
+开花的柚子树Pollinated Pomelo Tree# 柳橙花粉
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

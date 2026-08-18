@@ -1,5 +1,5 @@
 id=33451
-大理石镶蛋白石墙Marble Opal Wall# Orange Guard
+大理石镶蛋白石墙Marble Opal Wall# 橙色 守护
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

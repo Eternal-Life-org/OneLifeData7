@@ -1,5 +1,5 @@
 id=2238
-正在工作纽科门锤Firing Newcomen Hammer
+正在工作的纽科门蒸汽冲压机Firing Newcomen Hammer
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3

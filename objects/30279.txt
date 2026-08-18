@@ -1,5 +1,5 @@
 id=30279
-湿切葡萄Wet Planted Grape Cutting
+湿白葡萄苗Wet Planted Grape Cutting
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

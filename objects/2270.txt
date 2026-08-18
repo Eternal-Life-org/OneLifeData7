@@ -1,5 +1,5 @@
 id=2270
-纽科门蒸汽钻孔机Newcomen Bore
+纽科门蒸汽钻床Newcomen Bore
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=25924
-加木炭冲压机Newcomen Stamping Press with Charcoal# rotor
+准备就绪的纽科门蒸汽冲压机Newcomen Stamping Press with Charcoal# 转子模具
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3

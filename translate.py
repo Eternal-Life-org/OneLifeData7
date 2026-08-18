@@ -13,7 +13,7 @@ translate.py - 用 翻译表.xlsx 覆盖 objects/*.txt 的名称行(第2行)
 菜单四个按钮(每次写入前自动备份, 可撤回一次):
     1. 新增物品 (本地 -> 翻译表): objects/ 里表上没有的编号, 追加为新行(B英文/C中文/D后缀)
     2. 导入修改 (本地 -> 翻译表): 本地第2行与表(实装B/C/D)不一致的, 用本地覆盖 B/C/D
-    3. 应用翻译 (翻译表 -> 本地): mode 3 追加英文(中文+英文)
+    3. 应用翻译 (翻译表 -> 本地): 可选择 1 翻译英文 / 2 翻译中文 / 3 追加英文(中文+英文)
     4. 撤回: 回退到上一次操作前的状态
     备份在 OneLifeData7/sync_backup/
 
@@ -567,7 +567,7 @@ def sync_menu():
         print('======== 翻译表同步工具 ========')
         print('1. 新增物品   (本地 -> 翻译表)')
         print('2. 导入修改   (本地 -> 翻译表)')
-        print('3. 应用翻译   (翻译表 -> 本地)')
+        print('3. 应用翻译   (翻译表 -> 本地, 可选翻译模式)')
         print('4. 撤回       (回退到上一次操作前)')
         print('0. 退出')
         choice = input('请选择: ').strip()
@@ -578,7 +578,13 @@ def sync_menu():
         elif choice == '2':
             action_import()
         elif choice == '3':
-            run_mode(3, backup_objects=True)
+            m = input('翻译模式 (1 翻译英文 / 2 翻译中文 / 3 追加英文, 回车默认3): ').strip()
+            if m == '' or m == '3':
+                run_mode(3, backup_objects=True)
+            elif m in ('1', '2'):
+                run_mode(int(m), backup_objects=True)
+            else:
+                print('无效选择')
         elif choice == '4':
             action_undo()
         else:

@@ -1,5 +1,5 @@
 id=13677
-贝塞麦转炉与熔融生铁Bessemer Converter with Molten Pig Iron# horizontal
+贝塞麦转炉与熔融生铁Bessemer Converter with Molten Pig Iron# horizo​​ntal
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

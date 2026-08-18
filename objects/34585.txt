@@ -1,5 +1,5 @@
 id=34585
-发酵辣椒醋木桶Wooden Barrel of Fermented Hot Pepper and Vinegar
+一桶发酵中的塔巴斯克辣椒酱Wooden Barrel of Fermented Hot Pepper and Vinegar
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

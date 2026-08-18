@@ -1,5 +1,5 @@
 id=34550
-煮熟的豆子和碎麦芽Crock of Cooked Bean and Crushed Malt
+一桶煮豆和碎麦芽Crock of Cooked Bean and Crushed Malt
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

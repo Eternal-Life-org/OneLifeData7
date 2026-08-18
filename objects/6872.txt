@@ -1,5 +1,5 @@
 id=6872
-玫瑰花堆Rose Stack# red pink
+玫瑰花堆Rose Stack# 红粉
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=34154
-湿的甜橙幼苗扦插Wet Sweet Orange Sapling Cutting
+湿柳橙树剪枝Wet Sweet Orange Sapling Cutting
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=33140
-花盆中的硝酸盐Nitrate in Flower Pot# Tourmaline
+花盆中的硝酸盐Nitrate in Flower Pot# 电气石
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

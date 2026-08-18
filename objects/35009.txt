@@ -1,5 +1,5 @@
 id=35009
-开花的甜橙树Staked Flowering Sweet Orange Tree
+带木桩的开花柳橙树Staked Flowering Sweet Orange Tree
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

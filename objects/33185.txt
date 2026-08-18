@@ -1,5 +1,5 @@
 id=33185
-一碗钠长石粉Bowl of Albite Powder
+一碗钠长石粉Bowl of Albite Powder# Use2
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

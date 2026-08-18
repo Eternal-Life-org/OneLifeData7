@@ -1,5 +1,5 @@
 id=34085
-用土壤和草本植物种子填充孔洞Filled Hole with Soil and Herbaceous Plant Seed
+松软地里的杂草种子Filled Hole with Soil and Herbaceous Plant Seed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

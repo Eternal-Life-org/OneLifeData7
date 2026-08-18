@@ -1,5 +1,5 @@
 id=6699
-熊皮地毯Bear Skin Rug# mossy stone groundOnly
+熊皮地毯Bear Skin Rug# 长满青苔的石地板
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=26152
-装配中的第一代汽车The First Generation Car in Assembly
+装配中的第一代汽车The First Generation Car in Assembly# 23 灌装液压油
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

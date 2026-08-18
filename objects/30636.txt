@@ -1,5 +1,5 @@
 id=30636
-熔炉中上釉水的骨瓷花盆Stone Furnace with Glazed Firing Bone China Pot
+熔炉中上釉水的骨瓷花盆Stone Furnace with Glazed Firing Bone China Pot# 焦炭
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

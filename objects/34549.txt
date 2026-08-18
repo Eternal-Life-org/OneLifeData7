@@ -1,5 +1,5 @@
 id=34549
-熟豆角Crock of Cooked Bean
+一桶煮过的豆子Crock of Cooked Bean
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

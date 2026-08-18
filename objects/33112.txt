@@ -1,5 +1,5 @@
 id=33112
-封闭式石烧釉骨质瓷锅Closed Stone with Glazed Firing Bone China Pot# 90%
+熔炉中上釉的骨瓷花盆Closed Stone with Glazed Firing Bone China Pot# 90%
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

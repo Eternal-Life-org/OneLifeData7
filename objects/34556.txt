@@ -1,5 +1,5 @@
 id=34556
-发酵豆角Crock of Fermented Bean
+一桶发酵完的豆子Crock of Fermented Bean
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

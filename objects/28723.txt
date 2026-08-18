@@ -1,5 +1,5 @@
 id=28723
-Lab Table with Manganese Iron# acid leaching,fire
+实验桌中的氧化锰Lab Table with Manganese Iron# 酸浸 点燃
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

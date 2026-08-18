@@ -1,5 +1,5 @@
 id=34159
-甜橙树Sweet Orange Tree
+结果的柳橙树Sweet Orange Tree
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

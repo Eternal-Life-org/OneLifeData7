@@ -1,5 +1,5 @@
 id=34156
-湿甜橙树液Wet Sweet Orange Sapling
+湿柳橙树幼苗Wet Sweet Orange Sapling
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

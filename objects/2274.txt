@@ -1,5 +1,5 @@
 id=2274
-装满水的纽科门蒸汽钻孔机Newcomen Bore with Full Boiler
+装满水的纽科门蒸汽钻床Newcomen Bore with Full Boiler
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3

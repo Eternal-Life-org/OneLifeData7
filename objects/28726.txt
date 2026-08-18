@@ -1,5 +1,5 @@
 id=28726
-Lab Table# without Round-bottom Flask
+缺少圆底烧瓶的实验桌Lab Table# without Round-bottom Flask
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

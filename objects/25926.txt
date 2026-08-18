@@ -1,5 +1,5 @@
 id=25926
-燃烧中的冲压机Firing Newcomen Stamping Press# rotor
+正在工作的纽科门蒸汽冲压机Firing Newcomen Stamping Press# 转子模具
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3

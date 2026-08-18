@@ -1,5 +1,5 @@
 id=34011
-纽科门木炭锤Newcomen Hammer with Charcoal# No Water
+装满木炭的纽科门蒸汽冲压机Newcomen Hammer with Charcoal# No Water
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3

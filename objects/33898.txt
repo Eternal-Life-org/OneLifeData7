@@ -1,5 +1,5 @@
 id=33898
-柚子树Pomelo Tree# Bitter Orange
+结果的柚子树Pomelo Tree# 酸橙
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

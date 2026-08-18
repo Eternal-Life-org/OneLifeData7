@@ -1,5 +1,5 @@
 id=35080
-双腔窑Firing Double Chamber Furnace# Close Wind Close Out
+双腔窑Firing Double Chamber Furnace# 风口关闭 出料口关闭
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

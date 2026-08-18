@@ -1,5 +1,5 @@
 id=34599
-番茄胡椒盐泥鳅Clay Crock with Tomato Pepper and Salt
+一罐加了盐有辣椒的碎番茄Clay Crock with Tomato Pepper and Salt
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

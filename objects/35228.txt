@@ -1,5 +1,5 @@
 id=35228
-化学调配台和甘油 1S
+化学调配台和甘油1S
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

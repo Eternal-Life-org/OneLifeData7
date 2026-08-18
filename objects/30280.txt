@@ -1,5 +1,5 @@
 id=30280
-干葡萄园地块Dry Vineyard Plot
+干白葡萄园地块Dry Vineyard Plot
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

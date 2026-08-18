@@ -1,5 +1,5 @@
 id=2280
-纽科门蒸汽滚筒机Newcomen Roller
+纽科门蒸汽轧机Newcomen Roller
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3

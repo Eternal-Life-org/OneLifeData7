@@ -1,5 +1,5 @@
 id=33277
-火炬架上的点燃蜡烛Torch Stand with Lit Candles# Perpetual
+火炬架上的点燃蜡烛Torch Stand with Lit Candles# 常亮 稀有
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

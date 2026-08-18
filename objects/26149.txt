@@ -1,5 +1,5 @@
 id=26149
-化学实验台Chemical Experiment Platform
+化学实验台Chemical Experiment Platform# 制取乙二醇
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

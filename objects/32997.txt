@@ -1,5 +1,5 @@
 id=32997
-化学实验台Chemical Work Bench with Ice Water Mixture# Dilute Nitric Sulfuric Mixed Acid
+化学实验台Chemical Work Bench with Ice Water Mixture# 仿制珍珠岩粉 空
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=34170
-授粉甜橙树Pollinated Sweet Orange Tree# Bee
+被授粉的柳橙树Pollinated Sweet Orange Tree# 蜜蜂
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

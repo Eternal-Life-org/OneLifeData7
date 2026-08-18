@@ -1,5 +1,5 @@
 id=34553
-豆豉Fermented Bean
+一桶带有过滤布发酵完的豆子Fermented Bean
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

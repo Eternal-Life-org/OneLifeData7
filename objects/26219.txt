@@ -1,5 +1,5 @@
 id=26219
-花岗岩granite
+花岗岩granite# 伴生石英 Granite Block # Associated Quartz
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=14

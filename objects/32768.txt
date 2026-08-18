@@ -1,5 +1,5 @@
 id=32768
-热液矿床Hydrothermal Oredeposits# Level2 Hot 10
+热液矿床Hydrothermal Oredeposits# 2级 炽热 10
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3

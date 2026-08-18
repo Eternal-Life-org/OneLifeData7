@@ -1,5 +1,5 @@
 id=35180
-工作台和链锯外壳 Wooden Work Bench with Cutting Machine Casing
+工作台和链锯外壳Wooden Work Bench with Cutting Machine Casing
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

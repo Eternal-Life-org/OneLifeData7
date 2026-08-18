@@ -1,5 +1,5 @@
 id=34167
-开甜橙花的树Flowering Sweet Orange Tree
+开花的柳橙树Flowering Sweet Orange Tree
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

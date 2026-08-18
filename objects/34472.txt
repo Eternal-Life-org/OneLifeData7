@@ -1,5 +1,5 @@
 id=34472
-柚子树Pomelo Tree# Grapefruit Citrus Fly
+结果的柚子树Pomelo Tree# 葡萄柚 果蝇
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

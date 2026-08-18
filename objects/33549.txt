@@ -1,5 +1,5 @@
 id=33549
-蕨类植物Fern# large Does not refresh
+蕨类植物Fern# 大型 不刷新
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

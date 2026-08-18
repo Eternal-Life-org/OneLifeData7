@@ -1,5 +1,5 @@
 id=25219
-象棋象Chess Elephant# Black on Ground
+象棋象Chess Elephant# 黑色在地上
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

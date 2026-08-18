@@ -1,5 +1,5 @@
 id=35078
-双腔窑Firing Double Chamber Furnace# Down Wind Slow Out
+双腔窑Firing Double Chamber Furnace# 下风口 慢出料
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

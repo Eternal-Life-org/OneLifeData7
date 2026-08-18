@@ -1,5 +1,5 @@
 id=35138
-化学实验台和玻璃漏斗Chemical Experiment Platform
+化学实验台和玻璃漏斗Chemical Experiment Platform# 浓硫酸
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

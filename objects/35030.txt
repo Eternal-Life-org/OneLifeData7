@@ -1,5 +1,5 @@
 id=35030
-带有小石块的甜橙树Sweet Orange Tree with Small Cut Stones
+带有小块石头的柳橙树Sweet Orange Tree with Small Cut Stones
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

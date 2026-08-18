@@ -1,5 +1,5 @@
 id=2242
-装满木炭的纽科门锻造锤Newcomen Hammer with Charcoal
+准备就绪的纽科门蒸汽冲压机Newcomen Hammer with Charcoal
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3

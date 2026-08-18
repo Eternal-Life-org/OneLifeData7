@@ -1,5 +1,5 @@
 id=14474
-野生亚麻棉铃Wild Flax Boll
+野生亚麻蒴果Wild Flax Boll
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

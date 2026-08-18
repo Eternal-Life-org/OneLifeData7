@@ -1,5 +1,5 @@
 id=35052
-调酒桌Bartenders# Bloody Mary 4
+调酒桌Bartenders# 血腥玛丽 4
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=35086
-双腔窑Firing Double Chamber Furnace# Middle Wind Fast Out No Coke
+双腔窑Firing Double Chamber Furnace# 中部风口 快出料 没有焦炭
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
