@@ -1,5 +1,5 @@
 id=26124
-橡胶片Rubber Sheet#black
+橡胶片Rubber Sheet# black
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

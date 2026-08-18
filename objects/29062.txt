@@ -1,5 +1,5 @@
 id=29062
-@ Wet flower Seeding#sunflower and hydrangea
+@ Wet flower Seeding# sunflower and hydrangea
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

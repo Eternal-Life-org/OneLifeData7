@@ -1,5 +1,5 @@
 id=4569
-蜜蜂Honeybee#nectar
+蜜蜂Honeybee# nectar
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

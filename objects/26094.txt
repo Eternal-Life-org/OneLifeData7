@@ -1,5 +1,5 @@
 id=26094
-组装中的初代车The First Generation Car in Assembly#17 1s
+组装中的初代车The First Generation Car in Assembly# 17 1s
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

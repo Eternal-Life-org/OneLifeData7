@@ -1,5 +1,5 @@
 id=25965
-开裂的定子冲压模具在木钳上Cracked Stamping Press in Wooden Tongs#Stator
+开裂的定子冲压模具在木钳上Cracked Stamping Press in Wooden Tongs# Stator
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

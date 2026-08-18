@@ -1,5 +1,5 @@
 id=784
-一堆圆石Stone Pile#rubble
+一堆圆石Stone Pile# rubble
 containable=0
 containSize=1,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3

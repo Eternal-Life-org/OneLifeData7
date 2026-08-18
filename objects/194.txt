@@ -1,5 +1,5 @@
 id=194
-一窝兔子的洞Rabbit Family Hole#peeking2
+一窝兔子的洞Rabbit Family Hole# peeking2
 containable=0
 containSize=1,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

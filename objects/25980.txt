@@ -1,5 +1,5 @@
 id=25980
-木炭实验台Lab Table with Charcoal#no Pestle
+木炭实验台Lab Table with Charcoal# no Pestle
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

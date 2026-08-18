@@ -1,5 +1,5 @@
 id=12025
-原始钓鱼竿与鲈鱼Primitive Fishing Pole with Bass#just caught
+原始钓鱼竿与鲈鱼Primitive Fishing Pole with Bass# just caught
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

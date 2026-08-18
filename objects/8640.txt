@@ -1,5 +1,5 @@
 id=8640
-古老石墙Ancient Stone Wall#llamaflag
+古老石墙Ancient Stone Wall# llamaflag
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

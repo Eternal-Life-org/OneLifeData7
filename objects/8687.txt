@@ -1,5 +1,5 @@
 id=8687
-带轮胎手推车的石块Stone Block with Wheeled Hand Cart#installed
+带轮胎手推车的石块Stone Block with Wheeled Hand Cart# installed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=14

@@ -1,5 +1,5 @@
 id=25960
-关闭的石炉和定子冲压模具Closed Firing Stone Kiln with Stamping Press#Stator
+关闭的石炉和定子冲压模具Closed Firing Stone Kiln with Stamping Press# Stator
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

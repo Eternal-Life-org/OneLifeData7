@@ -1,5 +1,5 @@
 id=33713
-迷你Ban锤子mini Ban Hammer#modTool 1S VOG
+迷你Ban锤子mini Ban Hammer# modTool 1S VOG
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=0

@@ -1,5 +1,5 @@
 id=26001
-硅钢片Silicon Steel Sheet#justCasted
+硅钢片Silicon Steel Sheet# justCasted
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

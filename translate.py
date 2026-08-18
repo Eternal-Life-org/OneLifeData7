@@ -18,6 +18,9 @@ xlsx 结构 (Elife sheet, 按表头识别列):
 只有"实装"两列会被录入:
     C = 中文名(不含后缀)    D = 后缀(以#开头, 可为空)
 
+后缀规范: 每个 # 后必须有一个空格(行业规范)。脚本读表时自动规范化,
+'#Flowering' 与 '# Flowering' 视为同一后缀, 输出统一为 '# Flowering'。
+
 三种模式构建的第2行:
     1 翻译英文:  English + 后缀
     2 翻译中文:  Chinese + 后缀
@@ -150,7 +153,7 @@ def read_xlsx(xlsx_path):
         translations[key] = {
             'english': clean_cell(cells.get(cols[1], '')),
             'chinese': clean_cell(cells.get(cols[2], '')),
-            'label':   clean_cell(cells.get(cols[3], '')) if cols[3] else '',
+            'label':   normalize_suffix(clean_cell(cells.get(cols[3], ''))) if cols[3] else '',
         }
     return translations
 
@@ -162,6 +165,13 @@ def clean_cell(s):
     s = str(s)
     s = s.replace('\r', '').replace('\n', '')
     return s.strip()
+
+
+def normalize_suffix(s):
+    """后缀规范: 每个 # 后必须有一个空格(行业规范, 提升码风)
+    '#Flowering' -> '# Flowering';  '#W #cart' -> '# W # cart'
+    行尾的 # 不处理(后面没内容)"""
+    return re.sub(r'#(?=\S)', '# ', s or '')
 
 
 # ---------- object 文件读写 ----------

@@ -1,5 +1,5 @@
 id=5224
-蛋Egg#male rooster
+蛋Egg# male rooster
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

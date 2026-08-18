@@ -1,5 +1,5 @@
 id=14315
-弓锯Bow Saw#justRemoved
+弓锯Bow Saw# justRemoved
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

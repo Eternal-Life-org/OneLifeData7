@@ -1,5 +1,5 @@
 id=8680
-带手推车的石块Stone Block with Wheel Barrow#installed
+带手推车的石块Stone Block with Wheel Barrow# installed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=14

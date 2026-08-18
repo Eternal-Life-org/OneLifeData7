@@ -1,5 +1,5 @@
 id=493
-紫杉弓Yew Bow#just shot
+紫杉弓Yew Bow# just shot
 containable=0
 containSize=1,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

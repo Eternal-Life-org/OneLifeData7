@@ -1,5 +1,5 @@
 id=25955
-装水纽科门冲压机Newcomen Stamping Press with Charcoal#rotor
+装水纽科门冲压机Newcomen Stamping Press with Charcoal# rotor
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3

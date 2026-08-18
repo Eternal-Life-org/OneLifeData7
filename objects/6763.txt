@@ -1,5 +1,5 @@
 id=6763
-钢镐Steel Mining Pick#just repaired
+钢镐Steel Mining Pick# just repaired
 containable=1
 containSize=1.900000,vertSlotRot=-0.955000
 permanent=0,minPickupAge=3

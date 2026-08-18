@@ -1,5 +1,5 @@
 id=339
-砍倒的树Chopped Tree#big,log
+砍倒的树Chopped Tree# big,log
 containable=0
 containSize=1,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

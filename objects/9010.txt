@@ -1,5 +1,5 @@
 id=9010
-被木钳夹着的锻铁Wrought Iron in Wooden Tongs#quenched
+被木钳夹着的锻铁Wrought Iron in Wooden Tongs# quenched
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=30984
-坚固的规划原始围栏Sturdy Planned Primitive Fence#corner groundOnly
+坚固的规划原始围栏Sturdy Planned Primitive Fence# corner groundOnly
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

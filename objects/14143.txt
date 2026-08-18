@@ -1,5 +1,5 @@
 id=14143
-一碗煮熟的甘蔗浆Bowl of Cooked Sugarcane Pulp#just poured
+一碗煮熟的甘蔗浆Bowl of Cooked Sugarcane Pulp# just poured
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

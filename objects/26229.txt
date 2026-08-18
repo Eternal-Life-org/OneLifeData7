@@ -1,5 +1,5 @@
 id=26229
-运行中的柴油发电机Running Diesel Generator#running
+运行中的柴油发电机Running Diesel Generator# running
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

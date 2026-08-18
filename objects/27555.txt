@@ -1,5 +1,5 @@
 id=27555
-沥青路Asphalt Road#Paved WNS
+沥青路Asphalt Road# Paved WNS
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

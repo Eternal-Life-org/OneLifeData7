@@ -1,5 +1,5 @@
 id=6869
-沙堆Sand Pile#ground footsteps
+沙堆Sand Pile# ground footsteps
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

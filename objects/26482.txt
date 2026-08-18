@@ -1,5 +1,5 @@
 id=26482
-铺设的电线Laid Wires#WE off #concrete
+铺设的电线Laid Wires# WE off # concrete
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

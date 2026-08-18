@@ -1,5 +1,5 @@
 id=25929
-关闭燃烧的石炉和转子冲压模具Closed Firing Stone Kiln with Stamping Press#rotor
+关闭燃烧的石炉和转子冲压模具Closed Firing Stone Kiln with Stamping Press# rotor
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

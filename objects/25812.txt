@@ -1,5 +1,5 @@
 id=25812
-海獭玩具Seal Toy#held
+海獭玩具Seal Toy# held
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=610
-喂过的盘羊羊羔Fed Mouflon Lamb#post hungry
+喂过的盘羊羊羔Fed Mouflon Lamb# post hungry
 containable=0
 containSize=1,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3

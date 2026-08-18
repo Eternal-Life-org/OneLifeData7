@@ -1,5 +1,5 @@
 id=6724
-头巾Head Wrap#onGround
+头巾Head Wrap# onGround
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

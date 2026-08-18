@@ -1,5 +1,5 @@
 id=14631
-一堆绑着的红豆杉轴Pile of Tied Yew Shafts#justDismantled
+一堆绑着的红豆杉轴Pile of Tied Yew Shafts# justDismantled
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=27581
-绿色旗卷Green Flag Roll#3
+绿色旗卷Green Flag Roll# 3
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

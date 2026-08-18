@@ -1,5 +1,5 @@
 id=14174
-野营炉热巧克力Camping Stove with Hot Chocolate#ashes
+野营炉热巧克力Camping Stove with Hot Chocolate# ashes
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

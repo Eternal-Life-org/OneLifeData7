@@ -1,5 +1,5 @@
 id=26025
-转子Rotor without Shaft#partialWindings
+转子Rotor without Shaft# partialWindings
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

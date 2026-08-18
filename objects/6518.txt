@@ -1,5 +1,5 @@
 id=6518
-有火星的火种Smoldering Tinder#pineneedles
+有火星的火种Smoldering Tinder# pineneedles
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

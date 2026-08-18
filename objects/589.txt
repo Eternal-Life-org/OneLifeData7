@@ -1,5 +1,5 @@
 id=589
-绵羊骨堆Sheep Bones#dumped
+绵羊骨堆Sheep Bones# dumped
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3

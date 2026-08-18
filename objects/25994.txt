@@ -1,5 +1,5 @@
 id=25994
-燃烧的添加了钢锭的高炉Firing Blast Furnace Charged with Steel Ingot#Silicon Ingot
+燃烧的添加了钢锭的高炉Firing Blast Furnace Charged with Steel Ingot# Silicon Ingot
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
