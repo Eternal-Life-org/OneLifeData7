@@ -1,5 +1,5 @@
 id=27796
-百合小种球Lily Seed Ball# 1 # Orange
+百合小种球Lily Seed Ball# 1 Orange
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

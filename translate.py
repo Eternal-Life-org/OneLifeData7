@@ -5,10 +5,17 @@ translate.py - 用 翻译表.xlsx 覆盖 objects/*.txt 的名称行(第2行)
 
 用法:
     cd OneLifeData7
-    python translate.py              # 交互式选择模式
-    python translate.py --mode 1     # 1=翻译英文 2=翻译中文 3=追加英文(中文+英文)
-    python translate.py --dry-run    # 只扫描不覆盖(测试用, 附带改动统计)
-    python translate.py --ignore-errors  # 输出异常但仍执行覆盖
+    python translate.py              # 同步工具菜单: 新增物品/导入修改/应用翻译/撤回
+    python translate.py --mode 1     # 直接执行: 1=翻译英文 2=翻译中文 3=追加英文(中文+英文)
+    python translate.py --mode 3 --dry-run    # 只扫描不覆盖(测试用, 附带改动统计)
+    python translate.py --mode 3 --ignore-errors  # 输出异常但仍执行覆盖
+
+菜单四个按钮(每次写入前自动备份, 可撤回一次):
+    1. 新增物品 (本地 -> 翻译表): objects/ 里表上没有的编号, 追加为新行(B英文/C中文/D后缀)
+    2. 导入修改 (本地 -> 翻译表): 本地第2行与表(实装B/C/D)不一致的, 用本地覆盖 B/C/D
+    3. 应用翻译 (翻译表 -> 本地): mode 3 追加英文(中文+英文)
+    4. 撤回: 回退到上一次操作前的状态
+    备份在 OneLifeData7/sync_backup/
 
 xlsx 结构 (Elife sheet, 按表头识别列):
     A=key(物品id)  B=English  C=简体中文（实装）  D=后缀（实装）
@@ -40,8 +47,10 @@ xlsx 结构 (Elife sheet, 按表头识别列):
 import sys
 import os
 import re
+import shutil
 import zipfile
 import xml.etree.ElementTree as ET
+import openpyxl
 
 NS  = '{http://schemas.openxmlformats.org/spreadsheetml/2006/main}'
 RNS = '{http://schemas.openxmlformats.org/officeDocument/2006/relationships}'
@@ -317,44 +326,165 @@ def translate(translations, mode, obj_dir):
     return count, skipped
 
 
-# ---------- 交互 ----------
+# ---------- 同步工具: 备份 / 撤回 ----------
 
-def ask_mode():
-    print("请选择翻译模式:")
-    print("  1: 翻译英文   (第2行 = English + 后缀)")
-    print("  2: 翻译中文   (第2行 = Chinese + 后缀)")
-    print("  3: 追加英文   (第2行 = Chinese + English + 后缀)")
-    while True:
-        try:
-            m = int(input("请输入 1/2/3: ").strip())
-            if m in (1, 2, 3):
-                return m
-        except ValueError:
-            pass
-        print("输入无效, 请输入 1/2/3")
+BACKUP_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'sync_backup')
+BACKUP_XLSX = os.path.join(BACKUP_DIR, 'table_backup.xlsx')
+BACKUP_OBJ = os.path.join(BACKUP_DIR, 'objects')
+BACKUP_MARK = os.path.join(BACKUP_DIR, 'last_action.txt')
 
 
-# ---------- main ----------
+def save_table_backup():
+    """备份翻译表, 标记最近一次动作为 table"""
+    os.makedirs(BACKUP_DIR, exist_ok=True)
+    shutil.copy2(DEFAULT_XLSX, BACKUP_XLSX)
+    with open(BACKUP_MARK, 'w', encoding='utf-8') as f:
+        f.write('table')
 
-def main():
-    dry_run = '--dry-run' in sys.argv
-    ignore_errors = '--ignore-errors' in sys.argv
-    mode = None
-    for a in sys.argv[1:]:
-        if a.startswith('--mode='):
-            mode = int(a.split('=', 1)[1])
-        elif a == '--mode':
-            pass
-    # --mode N 形式
-    if mode is None:
-        args = [a for a in sys.argv[1:] if not a.startswith('--')]
-        for a in args:
-            if a in ('1', '2', '3'):
-                mode = int(a)
-                break
-    if mode is None:
-        mode = ask_mode()
 
+def save_objects_backup(keys):
+    """备份将被改动的 object 文件, 标记最近一次动作为 objects"""
+    os.makedirs(BACKUP_OBJ, exist_ok=True)
+    for fn in os.listdir(BACKUP_OBJ):
+        os.remove(os.path.join(BACKUP_OBJ, fn))
+    for k in keys:
+        shutil.copy2(os.path.join(DEFAULT_OBJ_DIR, f'{k}.txt'),
+                     os.path.join(BACKUP_OBJ, f'{k}.txt'))
+    with open(BACKUP_MARK, 'w', encoding='utf-8') as f:
+        f.write('objects')
+
+
+def action_undo():
+    """撤回: 回退到上一次操作前的状态"""
+    if not os.path.isfile(BACKUP_MARK):
+        print('[撤回] 没有可撤回的操作')
+        return
+    with open(BACKUP_MARK, encoding='utf-8') as f:
+        last = f.read().strip()
+    if last == 'table':
+        if not os.path.isfile(BACKUP_XLSX):
+            print('[撤回] 表备份缺失, 无法撤回')
+            return
+        shutil.copy2(BACKUP_XLSX, DEFAULT_XLSX)
+        os.remove(BACKUP_MARK)
+        print('[撤回] 翻译表已回退到上一次操作前')
+    elif last == 'objects':
+        files = [f for f in os.listdir(BACKUP_OBJ) if f.endswith('.txt')]
+        if not files:
+            print('[撤回] 对象备份为空, 无法撤回')
+            return
+        for f in files:
+            shutil.copy2(os.path.join(BACKUP_OBJ, f),
+                         os.path.join(DEFAULT_OBJ_DIR, f))
+        os.remove(BACKUP_MARK)
+        print(f'[撤回] {len(files)} 个 object 已回退到上一次操作前')
+    else:
+        print(f'[撤回] 未知备份类型: {last}')
+
+
+# ---------- 同步工具: 新增 / 导入修改 ----------
+
+def split_cn_en(name):
+    """'轨道终点Track End' -> ('轨道终点', 'Track End'); 纯中文/纯英文也能处理"""
+    name = name.strip()
+    i = 0
+    while i < len(name) and ord(name[i]) > 127:
+        i += 1
+    return name[:i].rstrip(), name[i:].lstrip()
+
+
+def parse_line2(line2):
+    """'轨道终点Track End# W cart' -> (cn, en, suffix); 无#时后缀为空"""
+    idx = line2.find('#')
+    if idx < 0:
+        name, suf = line2, ''
+    else:
+        name, suf = line2[:idx], line2[idx:]
+    cn, en = split_cn_en(name)
+    return cn, en, suf
+
+
+def load_table():
+    """加载翻译表(读写), 返回 (wb, ws, {key: 行号})"""
+    wb = openpyxl.load_workbook(DEFAULT_XLSX)
+    ws = wb[SHEET_NAME]
+    key2row = {}
+    for row in ws.iter_rows(min_col=1, max_col=1):
+        k = str(row[0].value or '').strip()
+        if k.isdigit():
+            key2row[k] = row[0].row
+    return wb, ws, key2row
+
+
+def action_add():
+    """1. 新增物品: objects/ 里表上没有的编号, 追加为新行(B英文/C中文/D后缀)"""
+    wb, ws, key2row = load_table()
+    added, skipped = [], []
+    for fn in sorted(os.listdir(DEFAULT_OBJ_DIR)):
+        if not fn.endswith('.txt'):
+            continue
+        key = fn[:-4]
+        if not key.isdigit() or key in key2row:
+            continue
+        line2 = read_obj_line2(os.path.join(DEFAULT_OBJ_DIR, fn))
+        if line2 is None or line2 == '':
+            skipped.append((key, '第2行缺失或为空'))
+            continue
+        cn, en, suf = parse_line2(line2)
+        if not cn and not en:
+            skipped.append((key, '名字为空'))
+            continue
+        r = ws.max_row + 1
+        ws.cell(row=r, column=1).value = int(key)
+        ws.cell(row=r, column=2).value = en or None
+        ws.cell(row=r, column=3).value = cn or None
+        ws.cell(row=r, column=4).value = suf or None
+        ws.cell(row=r, column=5).value = cn or None
+        ws.cell(row=r, column=6).value = suf or None
+        ws.cell(row=r, column=7).value = '=IF(AND(C{r}=E{r},D{r}=F{r}),"未修改","有修改")'.format(r=r)
+        added.append(key)
+    if added:
+        save_table_backup()
+        wb.save(DEFAULT_XLSX)
+    print(f'[新增] 加入 {len(added)} 行: {", ".join(added[:20])}{" ..." if len(added) > 20 else ""}')
+    if skipped:
+        print(f'[新增] 跳过 {len(skipped)} 个: {skipped[:10]}{" ..." if len(skipped) > 10 else ""}')
+
+
+def action_import():
+    """2. 导入修改: 本地第2行与表(实装B/C/D)不一致的, 用本地覆盖 B/C/D"""
+    wb, ws, key2row = load_table()
+    changed = []
+    for k in sorted(key2row, key=int):
+        r = key2row[k]
+        b = ws.cell(row=r, column=2).value
+        c = ws.cell(row=r, column=3).value
+        d = ws.cell(row=r, column=4).value
+        t = {
+            'english': str(b).strip() if b is not None else '',
+            'chinese': str(c).strip() if c is not None else '',
+            'label': normalize_suffix(str(d).strip() if d is not None else ''),
+        }
+        line2 = read_obj_line2(os.path.join(DEFAULT_OBJ_DIR, f'{k}.txt'))
+        if line2 is None:
+            continue  # object 不存在, 不管
+        if build_line2(3, t) == line2:
+            continue  # 表与本地一致
+        cn, en, suf = parse_line2(line2)
+        ws.cell(row=r, column=2).value = en or None
+        ws.cell(row=r, column=3).value = cn or None
+        ws.cell(row=r, column=4).value = suf or None
+        changed.append(k)
+    if changed:
+        save_table_backup()
+        wb.save(DEFAULT_XLSX)
+    print(f'[导入修改] 用本地覆盖 {len(changed)} 行: {", ".join(changed[:20])}{" ..." if len(changed) > 20 else ""}')
+
+
+# ---------- 执行翻译 ----------
+
+def run_mode(mode, ignore_errors=False, backup_objects=False, dry_run=False):
+    """执行翻译(1/2/3); backup_objects=True 时先把将改动的 object 备份(供撤回)"""
     xlsx_path = DEFAULT_XLSX
     obj_dir = DEFAULT_OBJ_DIR
 
@@ -362,7 +492,7 @@ def main():
     print(f"读取 xlsx: {xlsx_path}")
     if not os.path.isfile(xlsx_path):
         print(f"错误: 找不到 xlsx 文件 '{xlsx_path}'")
-        sys.exit(1)
+        return
 
     print("解析 xlsx ...")
     translations = read_xlsx(xlsx_path)
@@ -371,13 +501,11 @@ def main():
     print("扫描 object 第2行 ...")
     errors, warnings = scan(translations, mode, obj_dir)
 
-    # 输出 warning
     if warnings:
         print(f"\n--- warnings: {len(warnings)} 条 ---")
         for w in warnings:
             print(f"  [WARN] {w}")
 
-    # 输出异常
     if errors:
         print(f"\n--- 异常: {len(errors)} 条 ---")
         for e in errors:
@@ -388,13 +516,12 @@ def main():
         else:
             print(f"\n扫描发现 {len(errors)} 处异常, 终止覆盖。"
                   f"请先修复, 或加 --ignore-errors 忽略异常继续覆盖。")
-            sys.exit(1)
+            return
 
     print(f"\n扫描通过: {len(translations)} 条, warning {len(warnings)} 条, "
           f"异常 {len(errors)} 条"
           f"{' (已忽略)' if ignore_errors else ''}。")
 
-    # 预览: 实际会改动多少 object (只统计, 不写入)
     changed = []
     for key in sorted(translations.keys(), key=lambda x: int(x)):
         t = translations[key]
@@ -416,9 +543,70 @@ def main():
         print("--dry-run 模式, 不执行覆盖。")
         return
 
+    if backup_objects and changed:
+        save_objects_backup(changed)
+
     print("开始覆盖 ...")
     count, skipped = translate(translations, mode, obj_dir)
     print(f"完成: 覆盖 {count} 个 object, 跳过 {skipped} 个。")
+
+
+# ---------- 同步工具菜单 ----------
+
+def sync_menu():
+    """无参数启动时的菜单: 新增物品/导入修改/应用翻译/撤回"""
+    wb = openpyxl.load_workbook(DEFAULT_XLSX, read_only=True)
+    ws = wb[SHEET_NAME]
+    n_obj = len([f for f in os.listdir(DEFAULT_OBJ_DIR)
+                 if f.endswith('.txt') and f[:-4].isdigit()])
+    print(f'翻译表: {ws.max_row - 1} 行 | 本地 objects: {n_obj} 个')
+    wb.close()
+
+    while True:
+        print()
+        print('======== 翻译表同步工具 ========')
+        print('1. 新增物品   (本地 -> 翻译表)')
+        print('2. 导入修改   (本地 -> 翻译表)')
+        print('3. 应用翻译   (翻译表 -> 本地)')
+        print('4. 撤回       (回退到上一次操作前)')
+        print('0. 退出')
+        choice = input('请选择: ').strip()
+        if choice == '0':
+            break
+        elif choice == '1':
+            action_add()
+        elif choice == '2':
+            action_import()
+        elif choice == '3':
+            run_mode(3, backup_objects=True)
+        elif choice == '4':
+            action_undo()
+        else:
+            print('无效选择')
+
+
+# ---------- main ----------
+
+def main():
+    dry_run = '--dry-run' in sys.argv
+    ignore_errors = '--ignore-errors' in sys.argv
+    mode = None
+    for a in sys.argv[1:]:
+        if a.startswith('--mode='):
+            mode = int(a.split('=', 1)[1])
+        elif a == '--mode':
+            pass
+    # --mode N 形式
+    if mode is None:
+        args = [a for a in sys.argv[1:] if not a.startswith('--')]
+        for a in args:
+            if a in ('1', '2', '3'):
+                mode = int(a)
+                break
+    if mode is None:
+        sync_menu()
+        return
+    run_mode(mode, ignore_errors=ignore_errors, dry_run=dry_run)
 
 
 if __name__ == '__main__':

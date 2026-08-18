@@ -1,5 +1,5 @@
 id=33218
-酒窖Cellar# noHighlight# +password-protectable
+酒窖Cellar# noHighlight +password-protectable
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

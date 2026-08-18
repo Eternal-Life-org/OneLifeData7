@@ -3,6 +3,7 @@
 objects/nextObjectNumberOffset.txt
 sprites/nextSpriteNumberOffset.txt
 翻译表.xlsx
+sync_backup/
 /.idea
 __pycache__/
 ~.xlsx

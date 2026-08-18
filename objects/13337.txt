@@ -1,5 +1,5 @@
 id=13337
-砂岩墙Sandstone Wall# justCleaned# +useOnContained
+砂岩墙Sandstone Wall# justCleaned +useOnContained
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=27784
-板结的耕地和百合小种球Hardened Row with Small Lily Seed Ball# 1 # Orange
+板结的耕地和百合小种球Hardened Row with Small Lily Seed Ball# 1 Orange
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

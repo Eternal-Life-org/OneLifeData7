@@ -1,5 +1,5 @@
 id=27110
-铺设的电线Laid Wires# WNES on-low # plasterwhite
+铺设的电线Laid Wires# WNES on-low plasterwhite
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

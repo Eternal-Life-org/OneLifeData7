@@ -1,5 +1,5 @@
 id=30772
-@ Deep Water# +noHighlight# seaweed Fish Fry
+@ Deep Water# +noHighlight seaweed Fish Fry
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

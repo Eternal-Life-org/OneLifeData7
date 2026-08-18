@@ -1,5 +1,5 @@
 id=27749
-百合小种球Lily Seed Ball# 1 # Pink
+百合小种球Lily Seed Ball# 1 Pink
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

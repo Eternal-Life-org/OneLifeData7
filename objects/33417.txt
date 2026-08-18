@@ -1,5 +1,5 @@
 id=33417
-松木墙Pine Wall# +useOnContained# Guard
+松木墙Pine Wall# +useOnContained Guard
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
