@@ -6,4 +6,11 @@ sprites/nextSpriteNumberOffset.txt
 sync_backup/
 /.idea
 __pycache__/
+faces/
+scenes/
+groundTileCache/
+working/
 ~.xlsx
+imgui.ini
+log.txt
+OneLife*
