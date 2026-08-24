@@ -8,6 +8,7 @@ sync_backup/
 __pycache__/
 faces/
 scenes/
+screenShots/
 groundTileCache/
 working/
 ~.xlsx
