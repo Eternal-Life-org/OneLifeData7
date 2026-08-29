@@ -1,5 +1,5 @@
 id=8932
-一堆脆弱的木杆Stack of Weak Sticks
+一堆木杆Stack of Sticks
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -34,7 +34,7 @@ spriteID=403
 pos=10.000000,-32.000000
 rot=0.000000
 hFlip=0
-color=0.661972,0.661972,0.661972
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -43,7 +43,7 @@ spriteID=403
 pos=13.000000,-26.000000
 rot=0.515000
 hFlip=0
-color=0.661972,0.661972,0.661972
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -52,7 +52,7 @@ spriteID=403
 pos=11.000000,-25.000000
 rot=0.995000
 hFlip=0
-color=0.661972,0.661972,0.661972
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -61,7 +61,7 @@ spriteID=403
 pos=9.000000,-20.000000
 rot=0.510000
 hFlip=0
-color=0.661972,0.661972,0.661972
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -70,7 +70,7 @@ spriteID=403
 pos=10.000000,-18.000000
 rot=0.010000
 hFlip=0
-color=0.661972,0.661972,0.661972
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -79,7 +79,7 @@ spriteID=403
 pos=11.000000,-12.000000
 rot=0.510000
 hFlip=0
-color=0.661972,0.661972,0.661972
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0

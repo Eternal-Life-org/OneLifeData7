@@ -2,7 +2,7 @@ id=35410
 运行中的螺旋钻
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
-permanent=0,minPickupAge=3
+permanent=0,minPickupAge=16
 noFlip=0
 sideAccess=0
 heldInHand=0
@@ -41,7 +41,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2168
-pos=20.000000,30.000000
+pos=0.000000,10.000000
 rot=0.000000
 hFlip=0
 color=0.000000,0.000000,0.000000
@@ -50,7 +50,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2167
-pos=20.000000,30.000000
+pos=0.000000,10.000000
 rot=0.000000
 hFlip=0
 color=0.000000,0.000000,0.000000
@@ -89,7 +89,7 @@ headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
 frontFootIndex=-1
-numUses=5,0.020000
+numUses=5,0.017000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=44
+pixHeight=41

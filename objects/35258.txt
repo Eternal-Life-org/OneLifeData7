@@ -1,5 +1,5 @@
 id=35258
-地质检测仪# 岩体变形安全值内
+地质检测仪# 岩体变形安全值内 范围 3*3
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

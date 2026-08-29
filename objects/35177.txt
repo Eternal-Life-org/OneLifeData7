@@ -1,11 +1,11 @@
 id=35177
 链条Chain
 containable=1
-containSize=1.000000,vertSlotRot=0.000000
+containSize=1.000000,vertSlotRot=0.500000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
-heldInHand=0
+heldInHand=1
 blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
 mapChance=0.000000#biomes_0
 heatValue=0
@@ -18,8 +18,8 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
-containOffset=2,-17
-heldOffset=3.000000,1.000000
+containOffset=2,3
+heldOffset=4.000000,-25.000000
 clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
