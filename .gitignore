@@ -6,6 +6,7 @@ sprites/nextSpriteNumberOffset.txt
 sync_backup/
 /.idea
 __pycache__/
+announcements/
 faces/
 scenes/
 screenShots/
