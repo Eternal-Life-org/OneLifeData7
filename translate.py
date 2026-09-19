@@ -61,6 +61,26 @@ SHEET_NAME = 'Elife'
 DEFAULT_XLSX = '翻译表.xlsx'
 DEFAULT_OBJ_DIR = 'objects'
 
+# 表格工具导出坏 styles.xml(如空 <fill/>)时 openpyxl 报这些错; 修复脚本见报错提示
+LOAD_ERRORS = (TypeError, KeyError, ValueError)
+
+
+def guard_load_workbook(**kwargs):
+    """openpyxl 加载 + 坏样式容错; 失败时打印可操作的提示并返回 None"""
+    try:
+        return openpyxl.load_workbook(DEFAULT_XLSX, **kwargs)
+    except LOAD_ERRORS as e:
+        print(f'\n无法用 openpyxl 打开 {DEFAULT_XLSX}: {type(e).__name__}: {e}')
+        print('   表格工具导出的 xlsx 可能含空 <fill/> 等坏样式(openpyxl 解析不了)。')
+        print('   修复: 在 claude AI 目录执行')
+        print('       python fix_xlsx_empty_fills.py <翻译表.xlsx>')
+        print('   (只改 styles.xml, 单元格数据与格式不变, 自动备份; --check 可先预览)')
+        print('   注意: 仅 --mode 1/2/3 走原生 XML 解析, 不受影响。')
+        return None
+    except OSError as e:
+        print(f'\n无法读取 {DEFAULT_XLSX}: {e}')
+        return None
+
 
 # ---------- xlsx 读取 (不依赖 openpyxl, 直接解析 XML) ----------
 
@@ -405,8 +425,10 @@ def parse_line2(line2):
 
 
 def load_table():
-    """加载翻译表(读写), 返回 (wb, ws, {key: 行号})"""
-    wb = openpyxl.load_workbook(DEFAULT_XLSX)
+    """加载翻译表(读写), 返回 (wb, ws, {key: 行号}); 表坏样式打不开时返回 None"""
+    wb = guard_load_workbook()
+    if wb is None:
+        return None
     ws = wb[SHEET_NAME]
     key2row = {}
     for row in ws.iter_rows(min_col=1, max_col=1):
@@ -418,7 +440,10 @@ def load_table():
 
 def action_add():
     """1. 新增物品: objects/ 里表上没有的编号, 追加为新行(B英文/C中文/D后缀)"""
-    wb, ws, key2row = load_table()
+    loaded = load_table()
+    if loaded is None:
+        return
+    wb, ws, key2row = loaded
     added, skipped = [], []
     for fn in sorted(os.listdir(DEFAULT_OBJ_DIR)):
         if not fn.endswith('.txt'):
@@ -453,7 +478,10 @@ def action_add():
 
 def action_import():
     """2. 导入修改: 本地第2行与表(实装B/C/D)不一致的, 用本地覆盖 B/C/D"""
-    wb, ws, key2row = load_table()
+    loaded = load_table()
+    if loaded is None:
+        return
+    wb, ws, key2row = loaded
     changed = []
     for k in sorted(key2row, key=int):
         r = key2row[k]
@@ -551,24 +579,64 @@ def run_mode(mode, ignore_errors=False, backup_objects=False, dry_run=False):
     print(f"完成: 覆盖 {count} 个 object, 跳过 {skipped} 个。")
 
 
+# ---------- 云同步 (腾讯文档共享表) ----------
+
+QQSYNC_DIR = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'claude AI', 'qqdoc-sync')
+
+
+def _qqsync():
+    """懒加载 claude AI/qqdoc-sync/qqdoc_sync.py (配置/token/备份都留在那边, 不进本仓库)。"""
+    if QQSYNC_DIR not in sys.path:
+        sys.path.insert(0, QQSYNC_DIR)
+    try:
+        import qqdoc_sync
+    except ImportError as e:
+        print(f'云同步模块加载失败: {e}')
+        print(f'(期望目录: {QQSYNC_DIR})')
+        return None
+    return qqdoc_sync
+
+
+def _run_qq(pick):
+    """跑一个云同步入口; 出错转成人话, 不炸回菜单。"""
+    qs = _qqsync()
+    if qs is None:
+        return
+    try:
+        pick(qs)
+    except SystemExit as e:  # 引擎 die() 走 sys.exit
+        if e.code not in (0, None):
+            print(f'云同步中止 (exit {e.code}), 详见上方报错。')
+    except RuntimeError as e:
+        print(f'云同步出错: {e}')
+    except KeyboardInterrupt:
+        print('\n已中断。')
+
+
 # ---------- 同步工具菜单 ----------
 
 def sync_menu():
     """无参数启动时的菜单: 新增物品/导入修改/应用翻译/撤回"""
-    wb = openpyxl.load_workbook(DEFAULT_XLSX, read_only=True)
-    ws = wb[SHEET_NAME]
-    n_obj = len([f for f in os.listdir(DEFAULT_OBJ_DIR)
-                 if f.endswith('.txt') and f[:-4].isdigit()])
-    print(f'翻译表: {ws.max_row - 1} 行 | 本地 objects: {n_obj} 个')
-    wb.close()
+    wb = guard_load_workbook(read_only=True)
+    if wb is not None:
+        ws = wb[SHEET_NAME]
+        n_obj = len([f for f in os.listdir(DEFAULT_OBJ_DIR)
+                     if f.endswith('.txt') and f[:-4].isdigit()])
+        print(f'翻译表: {ws.max_row - 1} 行 | 本地 objects: {n_obj} 个')
+        wb.close()
 
     while True:
         print()
         print('======== 翻译表同步工具 ========')
-        print('1. 新增物品   (本地 -> 翻译表)')
-        print('2. 导入修改   (本地 -> 翻译表)')
-        print('3. 应用翻译   (翻译表 -> 本地, 可选翻译模式)')
+        print('1. 新增物品   (本地objects -> 本地翻译表)')
+        print('2. 导入修改   (本地objects -> 本地翻译表)')
+        print('3. 应用翻译   (本地翻译表 -> 本地objects, 可选翻译模式)')
         print('4. 撤回       (回退到上一次操作前)')
+        print('-------- 云同步 (腾讯文档共享表) --------')
+        print('5. 云同步对比 (显示双方日期+改动, 只读)')
+        print('6. 拉取翻译表 (共享翻译表 -> 本地翻译表)')
+        print('7. 推送翻译表 (本地翻译表 -> 共享翻译表)')
         print('0. 退出')
         choice = input('请选择: ').strip()
         if choice == '0':
@@ -587,6 +655,12 @@ def sync_menu():
                 print('无效选择')
         elif choice == '4':
             action_undo()
+        elif choice == '5':
+            _run_qq(lambda qs: qs.menu_status())
+        elif choice == '6':
+            _run_qq(lambda qs: qs.menu_pull())
+        elif choice == '7':
+            _run_qq(lambda qs: qs.menu_push())
         else:
             print('无效选择')
 
