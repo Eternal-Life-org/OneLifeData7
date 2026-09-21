@@ -1,5 +1,5 @@
 id=35477
-纵向铜喷头Copper Sprinkler# EW spraying 范围 3*5
+纵向铜喷头Copper Sprinkler# EW spraying 范围 3*5 +tapoutTrigger,1,1,1,2
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
