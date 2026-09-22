@@ -1,5 +1,5 @@
 id=35255
-地质检测仪# 岩体轻微变形或温度升高
+地质检测仪# 岩体轻微变形或温度升高 3x3
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -180,7 +180,7 @@ headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
 frontFootIndex=-1
-numUses=1,1.000000
+numUses=7,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
 pixHeight=31

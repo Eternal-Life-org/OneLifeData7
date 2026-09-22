@@ -1,5 +1,5 @@
 id=33703
-控制台Console# B Scope (81*81)
+控制台Console# B 81x81
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

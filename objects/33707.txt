@@ -1,5 +1,5 @@
 id=33707
-火炬Torch# Scope (3*3) VOG
+火炬Torch# Scope 3x3 VOG
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

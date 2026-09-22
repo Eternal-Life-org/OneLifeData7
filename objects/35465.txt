@@ -1,5 +1,5 @@
 id=35465
-深层粘土坑 Deep Clay Pit# partial
+深层粘土坑Deep Clay Pit# partial
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
