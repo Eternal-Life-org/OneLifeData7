@@ -1,5 +1,5 @@
 id=6494
-成堆的石灰砾石Piles of Lime Gravel# 1S
+成堆的石灰砾石(outdated) Bacon# 1S
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
