@@ -1,5 +1,5 @@
 id=31079
-慰问Console# A +tapoutTrigger,1,1,40,40
+慰问Console# A 范围 81x81
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

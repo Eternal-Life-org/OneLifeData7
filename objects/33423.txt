@@ -1,5 +1,5 @@
 id=33423
-木墙Wooden Wall# h light +useOnContained Guard
+木墙Wooden Wall# h light Guard
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

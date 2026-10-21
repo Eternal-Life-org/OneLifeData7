@@ -1,5 +1,5 @@
 id=32303
-带架子的古半砖墙Ancient Half Brick Wall with Shelf# +useOnContained
+带架子的古半砖墙Ancient Half Brick Wall with Shelf#
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

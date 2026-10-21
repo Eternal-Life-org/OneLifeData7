@@ -1,5 +1,5 @@
 id=28454
-Password Locked Light Wooden Door with Plain Wreath# +password-protectable
+Password Locked Light Wooden Door with Plain Wreath#
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

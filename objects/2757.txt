@@ -1,5 +1,5 @@
 id=2757
-弹性木门Springy Wooden Door# Installed +autoDefaultTrans +blocksMoving
+弹性木门Springy Wooden Door# Installed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

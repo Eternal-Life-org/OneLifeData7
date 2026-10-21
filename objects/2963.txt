@@ -1,5 +1,5 @@
 id=2963
-财产围栏门Primitive Fence Gate# +blocksMoving
+财产围栏门Primitive Fence Gate#
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

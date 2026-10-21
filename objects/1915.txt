@@ -1,5 +1,5 @@
 id=1915
-黄色石膏墙Yellow Plaster Wall# +useOnContained
+黄色石膏墙Yellow Plaster Wall#
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

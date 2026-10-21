@@ -1,5 +1,5 @@
 id=30674
-带浮子的深水Deep Water with Float# +noHighlight Use4
+带浮子的深水Deep Water with Float# Use4
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

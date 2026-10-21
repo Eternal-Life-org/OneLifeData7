@@ -1,5 +1,5 @@
 id=14549
-带玫瑰花环的弹性开放木门Springy Open Wooden Door with Rose Wreath# Installed +blocksMoving
+带玫瑰花环的弹性开放木门Springy Open Wooden Door with Rose Wreath# Installed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

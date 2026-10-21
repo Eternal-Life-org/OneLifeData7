@@ -1,5 +1,5 @@
 id=14542
-带铃花环的弹性深色木门Springy Dark Wooden Door with Bell Wreath# Installed +autoDefaultTrans +blocksMoving
+带铃花环的弹性深色木门Springy Dark Wooden Door with Bell Wreath# Installed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

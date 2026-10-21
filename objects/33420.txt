@@ -1,5 +1,5 @@
 id=33420
-石英墙Quartz Wall# pink +useOnContained Guard
+石英墙Quartz Wall# pink Guard
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

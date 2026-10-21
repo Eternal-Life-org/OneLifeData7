@@ -1,5 +1,5 @@
 id=11769
-打开栅栏门Open Picket Fence Gate# +blocksMoving
+打开栅栏门Open Picket Fence Gate#
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

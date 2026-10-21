@@ -1,5 +1,5 @@
 id=34972
-浅水与裂开的大岩石Shallow Water with Split Big Rock# +noHighlight
+浅水与裂开的大岩石Shallow Water with Split Big Rock#
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

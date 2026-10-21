@@ -1,5 +1,5 @@
 id=28433
-Password Locked Light Wooden Door with Bell Wreath# +password-protectable
+Password Locked Light Wooden Door with Bell Wreath#
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

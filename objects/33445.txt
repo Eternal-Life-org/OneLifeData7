@@ -1,5 +1,5 @@
 id=33445
-大理石镶蛋白石墙Marble Opal Wall# +useOnContained Orange
+大理石镶蛋白石墙Marble Opal Wall# Orange
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

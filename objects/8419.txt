@@ -1,5 +1,5 @@
 id=8419
-带架子的浅色木墙Light Wooden Wall with Shelf# +noBackAccess +useOnContained
+带架子的浅色木墙Light Wooden Wall with Shelf#
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

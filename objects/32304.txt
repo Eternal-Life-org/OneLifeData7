@@ -1,5 +1,5 @@
 id=32304
-带架子的半砂岩墙Half SandStone Wall with Shelf# +useOnContained
+带架子的半砂岩墙Half SandStone Wall with Shelf#
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

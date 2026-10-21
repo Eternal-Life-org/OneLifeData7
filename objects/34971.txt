@@ -1,5 +1,5 @@
 id=34971
-浅水带湿式点火桩Shallow Water with Wet Kindling Pile# +noHighlight
+浅水带湿式点火桩Shallow Water with Wet Kindling Pile#
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

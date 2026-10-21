@@ -1,5 +1,5 @@
 id=14552
-带普通花环的弹性打开深色木门Springy Open Dark Wooden Door with Plain Wreath# Installed +blocksMoving
+带普通花环的弹性打开深色木门Springy Open Dark Wooden Door with Plain Wreath# Installed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

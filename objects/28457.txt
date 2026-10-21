@@ -1,5 +1,5 @@
 id=28457
-Open Password Locked Dark Wooden Door with Plain Wreath# +password-protectable
+Open Password Locked Dark Wooden Door with Plain Wreath#
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

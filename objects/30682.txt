@@ -1,5 +1,5 @@
 id=30682
-深水鳕鱼Deep Water with Cod# +noHighlight groundOnly
+深水鳕鱼Deep Water with Cod# groundOnly
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

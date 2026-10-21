@@ -1,5 +1,5 @@
 id=33928
-梅森饼干罐Mason Jar of Cookies
+梅森饼干罐Mason Jar of Cookies# +yum8253
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -16,7 +16,7 @@ deathMarker=0
 homeMarker=0
 floor=0
 floorHugging=0
-foodValue=0
+foodValue=3,8
 speedMult=1.000000
 containOffset=1,11
 heldOffset=12.000000,15.000004
@@ -24,7 +24,7 @@ clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
 useDistance=1
-sounds=405:0.250000,-1:0.0,-1:0.0,-1:0.0
+sounds=405:0.250000,405:0.250000,41:0.250000,-1:0.0
 creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000

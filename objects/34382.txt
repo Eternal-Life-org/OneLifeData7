@@ -1,5 +1,5 @@
 id=34382
-膨胀珍珠岩保温墙Expanded Perlite Insulation Wall# +useOnContained
+膨胀珍珠岩保温墙Expanded Perlite Insulation Wall#
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=14541
-带玫瑰花环的弹性深色木门Springy Dark Wooden Door with Rose Wreath# Installed +autoDefaultTrans +blocksMoving
+带玫瑰花环的弹性深色木门Springy Dark Wooden Door with Rose Wreath# Installed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
