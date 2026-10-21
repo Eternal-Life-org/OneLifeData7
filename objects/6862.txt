@@ -1,5 +1,5 @@
 id=6862
-榻榻米地板Tatami Floor# 仅限地面
+榻榻米地板Tatami Floor# groundOnly
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

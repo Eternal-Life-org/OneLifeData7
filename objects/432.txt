@@ -1,5 +1,5 @@
 id=432
-家养醋栗+defaultDomestic Gooseberry +default
+家养醋栗Domestic Gooseberry# +default
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
