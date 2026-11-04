@@ -1,5 +1,5 @@
 id=35643
-@ 阻挡动物移动 +blocksMoving +tag动物禁行
+@ +blocksMoving +tag动物禁行
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

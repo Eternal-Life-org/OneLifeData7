@@ -1,5 +1,5 @@
 id=35642
-@ 阻挡动物移动和自动开门 +blocksMoving +autoDefaultTrans +tag动物禁行
+@ +blocksMoving +autoDefaultTrans +tag动物禁行 +tag导航自动开门
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

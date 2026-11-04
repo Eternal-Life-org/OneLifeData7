@@ -1,5 +1,5 @@
 id=35674
-@狗与崽1 Dog With Pups1
+@狗与崽2 Dog With Pups2
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

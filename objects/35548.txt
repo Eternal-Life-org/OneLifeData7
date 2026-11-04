@@ -1,5 +1,5 @@
 id=35548
-结果的彩椒Fruiting Sweet Pepper Plant
+结果的单个黄彩椒Fruiting Sweet Pepper Plant
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

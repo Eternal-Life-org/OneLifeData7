@@ -1,5 +1,5 @@
 id=35510
-鹅尸体旗架Dead Goose Flag Stand
+鹅易十六旗架Dead Goose Flag Stand
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

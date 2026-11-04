@@ -1,5 +1,5 @@
 id=35646
-@ 可对容器内物品使用 +useOnContained +tag容器适用
+@ +useOnContained +tag精细合成
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

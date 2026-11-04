@@ -1,5 +1,5 @@
 id=33955
-黄纸剪Shears with Yellow Paper
+带黄纸的剪刀Shears with Yellow Paper
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=35593
-被木钳夹着的铁矿石Iron Ore in Wooden Tongs
+被木钳夹着的锰铁矿石Iron Ore in Wooden Tongs
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=33960
-铝制钢制独轮车Steel Wheelbarrow with Alum
+装有电气石的钢制独轮车Steel Wheelbarrow with Alum
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=12

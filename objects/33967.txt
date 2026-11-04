@@ -1,5 +1,5 @@
 id=33967
-铝制钢制独轮车Steel Wheelbarrow with Alum
+装有橙色蛋白石的钢制独轮车Steel Wheelbarrow with Alum
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=12

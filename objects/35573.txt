@@ -1,5 +1,5 @@
 id=35573
-一堆甜椒Pile of Sweet Peppers
+一堆黄甜椒Pile of Sweet Peppers
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

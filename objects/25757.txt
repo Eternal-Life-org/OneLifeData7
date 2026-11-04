@@ -1,5 +1,5 @@
 id=25757
-派克Pike# alive 活动专用
+派克Pike# alive
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

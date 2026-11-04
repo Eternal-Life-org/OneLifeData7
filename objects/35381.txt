@@ -1,5 +1,5 @@
 id=35381
-工作台和切油钻外壳
+工作台上的油钻外壳
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

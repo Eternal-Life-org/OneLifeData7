@@ -1,5 +1,5 @@
 id=35675
-@狗与崽2 Dog With Pups2
+@ +tag主服不可购买与获得 +tag包含系列
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

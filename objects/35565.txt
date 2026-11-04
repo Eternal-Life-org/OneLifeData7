@@ -1,5 +1,5 @@
 id=35565
-一碗红彩椒种子Bowl of Red Sweet Pepper Seeds
+一碗黄彩椒种子Bowl of Red Sweet Pepper Seeds
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

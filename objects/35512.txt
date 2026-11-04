@@ -1,5 +1,5 @@
 id=35512
-鹅尸体旗卷Dead Goose Flag Roll
+鹅易十六旗卷Dead Goose Flag Roll
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

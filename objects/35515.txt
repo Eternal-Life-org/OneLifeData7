@@ -1,5 +1,5 @@
 id=35515
-结果的辣椒Fruiting Pepper Plant
+结果的辣椒Fruiting Pepper Plant# 带有红甜椒的
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=35294
-一碗铝土矿粉和氢氧化盐Bowl of Bauxite Powder
+一碗铝土矿粉和氢氧化钾Bowl of Bauxite Powder
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

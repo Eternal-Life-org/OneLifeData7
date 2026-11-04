@@ -1,5 +1,5 @@
 id=33965
-雄黄钢轮手推车Steel Wheelbarrow with Realgar
+装有石盐的钢制独轮车Steel Wheelbarrow with Realgar
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=12

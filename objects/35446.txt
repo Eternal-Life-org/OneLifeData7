@@ -1,5 +1,5 @@
 id=35446
-插入漏斗Pear Juice Bottle with Funnel# inserted
+带漏斗的桃汁瓶Pear Juice Bottle with Funnel# inserted
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
