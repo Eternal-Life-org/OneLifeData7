@@ -1,1 +1,1 @@
-LetterM 0 0 0
+MMM 0 0 0

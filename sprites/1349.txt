@@ -1,1 +1,1 @@
-SmallLetterW 1 0 0
+smallWW 1 0 0

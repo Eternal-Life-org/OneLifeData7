@@ -1,5 +1,5 @@
 id=31974
-木墙结构与水浅蒽丝绸
+木墙结构与水浅葱丝绸
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

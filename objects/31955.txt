@@ -1,5 +1,5 @@
 id=31955
-煮沸的水浅蒽染料
+煮沸的水浅葱染料
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

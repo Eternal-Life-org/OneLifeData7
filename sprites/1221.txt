@@ -1,1 +1,1 @@
-LetterN 0 0 0
+NNN 0 0 0

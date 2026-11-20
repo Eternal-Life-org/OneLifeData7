@@ -1,1 +1,1 @@
-SmallLetterR 1 0 0
+smallRR 1 0 0

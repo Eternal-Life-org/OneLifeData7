@@ -1,1 +1,1 @@
-GasLamp_glow 0 -3 -31 1
+GasLamp_glow 0 -3 -31

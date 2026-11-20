@@ -1,1 +1,1 @@
-LetterO 0 0 0
+OOO 0 0 0

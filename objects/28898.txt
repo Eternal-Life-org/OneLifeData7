@@ -1,5 +1,5 @@
 id=28898
-@ +contlittleplantbox
+@ +contlittleplantbox +tag可放花园木桩
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

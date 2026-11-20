@@ -1,1 +1,1 @@
-LetterG 0 0 0
+GGG 0 0 0

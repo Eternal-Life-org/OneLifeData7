@@ -1,1 +1,1 @@
-SmallLetterL 1 0 0
+smallLL 1 0 0

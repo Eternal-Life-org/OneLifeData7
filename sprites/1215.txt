@@ -1,1 +1,1 @@
-LetterH 0 0 0
+HHH 0 0 0

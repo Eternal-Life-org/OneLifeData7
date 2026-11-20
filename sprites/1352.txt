@@ -1,1 +1,1 @@
-SmallLetterZ 1 0 0
+smallZZ 1 0 0

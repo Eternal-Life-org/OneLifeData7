@@ -1,1 +1,1 @@
-SmallLetterG 1 0 0
+smallGG 1 0 0

@@ -1,1 +1,1 @@
-SmallLetterO 1 0 0
+smallOO 1 0 0

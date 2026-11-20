@@ -1,6 +1,6 @@
 id=1812
 死去的紫杉盆景Dead Young Yew Bonsai
-containable=0
+containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
 noFlip=0

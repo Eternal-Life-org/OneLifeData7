@@ -1,5 +1,5 @@
 id=30208
-柠檬片Lemon Slices# +emotEat_28_10 +yum7316
+柠檬片Lemon Slices# +yum7316 +emotEat_28_10
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

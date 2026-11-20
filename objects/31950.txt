@@ -1,5 +1,5 @@
 id=31950
-水浅蒽丝绸# 3
+水浅葱丝绸# 3
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

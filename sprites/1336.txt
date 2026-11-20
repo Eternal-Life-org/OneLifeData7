@@ -1,1 +1,1 @@
-SmallLetterJ 1 0 0
+smallJJ 1 0 0

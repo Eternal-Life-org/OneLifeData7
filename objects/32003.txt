@@ -1,5 +1,5 @@
 id=32003
-@ 试剂容器物品 +contreagent
+@ +contreagent +tag可放化学试剂
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

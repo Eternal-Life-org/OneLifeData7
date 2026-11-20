@@ -1,0 +1,80 @@
+[0.000s] PHASE entered main
+[0.000s] EXE D:\root\OneLifeData7\Editor-Release.exe
+[0.000s] BUILD built=Nov 14 2026 15:07:46 platform=Windows pointerBits=64 SDL=3.4.10 linked=3.4.10
+[0.001s] GPU driver hint automatic
+[0.001s] OS Windows 10.0 build 19045
+[0.001s] DISPLAY Intel(R) UHD Graphics 730 id=PCI\VEN_8086&DEV_4692&SUBSYS_86941043&REV_0C flags=0x5
+[0.001s] DISPLAY Intel(R) UHD Graphics 730 id=PCI\VEN_8086&DEV_4692&SUBSYS_86941043&REV_0C flags=0x0
+[0.001s] DISPLAY Intel(R) UHD Graphics 730 id=PCI\VEN_8086&DEV_4692&SUBSYS_86941043&REV_0C flags=0x0
+[0.002s] DISPLAY Intel(R) UHD Graphics 730 id=PCI\VEN_8086&DEV_4692&SUBSYS_86941043&REV_0C flags=0x0
+[0.002s] INITIAL CWD D:\root\OneLifeData7\
+[0.002s] LOG D:\root\OneLifeData7/startup.log
+[0.002s] SDL category=0 priority=4 Tool data directory: D:\root\OneLifeData7\
+[0.003s] PHASE reading initial display settings
+[0.003s] PHASE SDL and GPU initialization
+[0.003s] SDL category=0 priority=4 [GPU_COMPAT] Disabled legacy AMD switchable-graphics implicit layer for this process; Vulkan drivers remain available
+[0.003s] SDL category=0 priority=4 Startup: SDL video/audio/gamepad initialization
+[0.107s] SDL category=0 priority=4 Startup: creating window 1600x1000
+[0.128s] SDL category=0 priority=4 Startup: creating GPU device; shaders=SPIR-V/MSL validation=off optional Vulkan features=off
+[0.128s] SDL category=0 priority=4 Compiled GPU backend: direct3d12
+[0.129s] SDL category=0 priority=4 Compiled GPU backend: vulkan
+[0.129s] SDL category=0 priority=4 Windows renderer uses Vulkan; Direct3D shaders are not included in this build
+[0.129s] SDL category=9 priority=5 SDL_GPU: backend 'direct3d12' rejected: 
+[0.135s] SDL category=9 priority=4 Vulkan: requested features anisotropy=0 depthClamp=0 clipDistance=0 indirectFirstInstance=0 independentBlend=1 sampleRateShading=1 imageCubeArray=1
+[0.151s] SDL category=9 priority=4 Vulkan: enumerated 1 physical device(s)
+[0.151s] SDL category=9 priority=4 Vulkan: checking device 'Intel(R) UHD Graphics 730' (api 1.3.280, driver 0x00195592)
+[0.151s] SDL category=9 priority=4 Vulkan: physical device preparation succeeded
+[0.152s] SDL category=9 priority=4 Vulkan: requested features anisotropy=0 depthClamp=0 clipDistance=0 indirectFirstInstance=0 independentBlend=1 sampleRateShading=1 imageCubeArray=1
+[0.168s] SDL category=9 priority=4 Vulkan: enumerated 1 physical device(s)
+[0.169s] SDL category=9 priority=4 Vulkan: checking device 'Intel(R) UHD Graphics 730' (api 1.3.280, driver 0x00195592)
+[0.169s] SDL category=9 priority=4 Vulkan: physical device preparation succeeded
+[0.169s] SDL category=9 priority=4 SDL_GPU Driver: Vulkan
+[0.169s] SDL category=9 priority=4 Vulkan Device: Intel(R) UHD Graphics 730
+[0.169s] SDL category=9 priority=4 Vulkan Driver: Intel Corporation 101.5522
+[0.169s] SDL category=9 priority=4 Vulkan Conformance: 1.3.6.3
+[0.188s] SDL category=0 priority=4 GPU validation requested: off
+[0.188s] SDL category=0 priority=4 Selected GPU: Intel(R) UHD Graphics 730; driver=Intel Corporation version=101.5522 info=101.5522
+[0.188s] SDL category=0 priority=4 Startup: claiming window and creating swapchain
+[0.726s] SDL category=0 priority=4 GPU Device initialized:
+[0.726s] SDL category=0 priority=4   Driver: vulkan
+[0.727s] SDL category=0 priority=4   Supported shader formats:
+[0.727s] SDL category=0 priority=4     - SPIR-V (Vulkan)
+[0.727s] SDL category=0 priority=4 GPU Renderer initialized successfully
+[0.727s] SDL category=0 priority=4 Display pixel scale: 1.00
+[0.727s] SDL category=0 priority=4 HDR: none
+[0.727s] SDL category=0 priority=4 Pixel scale: 1.00 (int 1)
+[0.727s] PHASE ImGui and font initialization
+[0.736s] PHASE sprite shaders, pipelines and samplers
+[0.736s] SDL category=0 priority=4 GPUSpriteBatcher: ATC pipeline ready (vulkan)
+[0.739s] SDL category=9 priority=4 Integrated memory detected, allocating TransferBuffers on device-local memory!
+[0.740s] PHASE background shader initialization
+[0.741s] SDL category=0 priority=4 SkyBackground initialized
+[0.741s] PHASE file worker initialization
+[0.741s] PHASE normal log.txt initialization
+[0.741s] SDL category=0 priority=4 gameSDL::main 游戏画布大小: 1600x1000, 显示区域大小: 1600x1000
+[0.742s] SDL category=0 priority=4 gameSDL::main 构建ScreenGL对象完毕
+[0.764s] SDL category=0 priority=4 handleScreenResize: 1600x1000 logical, 1600x1000 pixels (scale=1.00) -> visibleW=1600.0 visibleH=1000.0
+[1.000s] SDL category=0 priority=4 RebuildModeLists: display=1, 139 modes, 19 filtered 16:9 resolutions, usable=1920x1040, windowRecommended=1600x1000, fullscreenRecommended=1920x1080, 9 refresh rates
+[1.000s] SDL category=0 priority=4 DisplayController initialized (window=000002045f1fc570)
+[1.001s] SDL category=0 priority=4 handleScreenResize: 1600x1000 logical, 1600x1000 pixels (scale=1.00) -> visibleW=1600.0 visibleH=1000.0
+[1.001s] SDL category=0 priority=4 DisplayController::ApplyDisplayMode(窗口模式) applied
+[1.001s] SDL category=0 priority=4 DisplayController::SyncStateFromWindow -> mode=窗口模式
+[1.003s] SDL category=0 priority=4 handleScreenResize: 1600x1000 logical, 1600x1000 pixels (scale=1.00) -> visibleW=1600.0 visibleH=1000.0
+[1.003s] SDL category=0 priority=4 DisplayController::ApplyResolution(1600x1000) mode=0
+[1.004s] PHASE entering game frame loop
+[1.004s] SDL category=0 priority=4 handleScreenResize: 1600x1000 logical, 1600x1000 pixels (scale=1.00) -> visibleW=1600.0 visibleH=1000.0
+[1.006s] SDL category=0 priority=4 handleScreenResize: 1600x1000 logical, 1600x1000 pixels (scale=1.00) -> visibleW=1600.0 visibleH=1000.0
+[1.391s] PHASE first GPU frame submitted
+[2.295s] SDL category=0 priority=4 createBinFolderCache finished sounds/bin_v20321_cache.fcz with 421 files
+[2.704s] SDL category=0 priority=6 file_util::ReadFile Failed to read file: sprites/cache.fcz
+[2.704s] SDL category=0 priority=6 file_util::ReadFile Failed to read file: sprites/cache.fcz
+[2.894s] SDL category=0 priority=4 Compressing folder cache took 0.006000 seconds
+[2.973s] SDL category=0 priority=4 createFolderCache finished sprites with 7044 files
+[42.041s] SDL category=0 priority=4 createBinFolderCache finished sprites/bin_v20321_cache.fcz with 7043 files
+[50.270s] SDL category=0 priority=4 Loaded 7044 tagged sprites from sprites folder (maxID=351031 mapSize=351032)
+[50.271s] SDL category=0 priority=6 file_util::ReadFile Failed to read file: animations/cache.fcz
+[50.271s] SDL category=0 priority=6 file_util::ReadFile Failed to read file: animations/cache.fcz
+[107.520s] SDL category=0 priority=4 Compressing folder cache took 0.160000 seconds
+[107.549s] SDL category=0 priority=4 createFolderCache finished animations with 22662 files
+[109.053s] SDL category=0 priority=6 file_util::ReadFile Failed to read file: objects/cache.fcz
+[109.053s] SDL category=0 priority=6 file_util::ReadFile Failed to read file: objects/cache.fcz
